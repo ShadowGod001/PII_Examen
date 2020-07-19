@@ -1,5 +1,7 @@
 Para el diseño del programa me basé en el comportamiento de los pipes vistos en clase haciendo que cuando se creara un objeto de tipo Step se tuviera que indicar a dónde se movería el traveler luego de ese.
 Letra:
+
+
 ![UCU](https://github.com/ucudal/PII_Conceptos_De_POO/raw/master/Assets/logo-ucu.png)
 
 ### FIT - Universidad Católica del Uruguay
