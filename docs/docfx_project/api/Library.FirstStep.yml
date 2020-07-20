@@ -1,0 +1,361 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.FirstStep
+  commentId: T:Library.FirstStep
+  id: FirstStep
+  parent: Library
+  children:
+  - Library.FirstStep.#ctor(Library.Step,System.String)
+  - Library.FirstStep.PlayerArrival(Library.Traveler,System.Boolean)
+  - Library.FirstStep.RegisterPlayer(Library.Traveler)
+  langs:
+  - csharp
+  - vb
+  name: FirstStep
+  nameWithType: FirstStep
+  fullName: Library.FirstStep
+  type: Class
+  source:
+    id: FirstStep
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\FirstStep.cs
+    startLine: 19
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: 'public class FirstStep : Step'
+    content.vb: >-
+      Public Class FirstStep
+
+          Inherits
+
+
+
+           Step
+  inheritance:
+  - System.Object
+  - Library.Step
+  inheritedMembers:
+  - Library.Step.PlayersRegistry
+  - Library.Step.NextStep
+  - Library.Step.Name
+  - Library.Step.PlayersIn
+  - Library.Step.PlayerDeparture(Library.Traveler)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.FirstStep.#ctor(Library.Step,System.String)
+  commentId: M:Library.FirstStep.#ctor(Library.Step,System.String)
+  id: '#ctor(Library.Step,System.String)'
+  parent: Library.FirstStep
+  langs:
+  - csharp
+  - vb
+  name: FirstStep(Step, String)
+  nameWithType: FirstStep.FirstStep(Step, String)
+  fullName: Library.FirstStep.FirstStep(Library.Step, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\FirstStep.cs
+    startLine: 26
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nEl constructor de la clase instancia una nueva lista PlayersIn donde se guardan los travelers, y un NextStep que se recibe por \nparámetro para indicar a cuál step el jugador se deberá mover después de este.\n"
+  example: []
+  syntax:
+    content: public FirstStep(Step nextStep, string name = "FirstStep")
+    parameters:
+    - id: nextStep
+      type: Library.Step
+      description: ''
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(nextStep As  Step, name As String = "FirstStep")
+  overload: Library.FirstStep.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.FirstStep.RegisterPlayer(Library.Traveler)
+  commentId: M:Library.FirstStep.RegisterPlayer(Library.Traveler)
+  id: RegisterPlayer(Library.Traveler)
+  parent: Library.FirstStep
+  langs:
+  - csharp
+  - vb
+  name: RegisterPlayer(Traveler)
+  nameWithType: FirstStep.RegisterPlayer(Traveler)
+  fullName: Library.FirstStep.RegisterPlayer(Library.Traveler)
+  type: Method
+  source:
+    id: RegisterPlayer
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\FirstStep.cs
+    startLine: 38
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo que recibe un objeto tipo Traveler por parámetro, verifica que no sea null y lo agrega al diccionario PlayersRegistry si no está, \ny si está aumenta en 1 su valor.\n"
+  example: []
+  syntax:
+    content: public override void RegisterPlayer(Traveler player)
+    parameters:
+    - id: player
+      type: Library.Traveler
+      description: ''
+    content.vb: Public Overrides Sub RegisterPlayer(player As Traveler)
+  overridden: Library.Step.RegisterPlayer(Library.Traveler)
+  overload: Library.FirstStep.RegisterPlayer*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Library.FirstStep.PlayerArrival(Library.Traveler,System.Boolean)
+  commentId: M:Library.FirstStep.PlayerArrival(Library.Traveler,System.Boolean)
+  id: PlayerArrival(Library.Traveler,System.Boolean)
+  parent: Library.FirstStep
+  langs:
+  - csharp
+  - vb
+  name: PlayerArrival(Traveler, Boolean)
+  nameWithType: FirstStep.PlayerArrival(Traveler, Boolean)
+  fullName: Library.FirstStep.PlayerArrival(Library.Traveler, System.Boolean)
+  type: Method
+  source:
+    id: PlayerArrival
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\FirstStep.cs
+    startLine: 60
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo que recibe una condición y un objeto tipo Traveler valida que no sea null y lo agrega a la lista de PlayersIn.\n"
+  example: []
+  syntax:
+    content: public override void PlayerArrival(Traveler player, bool decision)
+    parameters:
+    - id: player
+      type: Library.Traveler
+      description: ''
+    - id: decision
+      type: System.Boolean
+      description: ''
+    content.vb: Public Overrides Sub PlayerArrival(player As Traveler, decision As Boolean)
+  overridden: Library.Step.PlayerArrival(Library.Traveler,System.Boolean)
+  overload: Library.FirstStep.PlayerArrival*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Library
+  commentId: N:Library
+  name: Library
+  nameWithType: Library
+  fullName: Library
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Library.Step
+  commentId: T:Library.Step
+  parent: Library
+  name: Step
+  nameWithType: Step
+  fullName: Library.Step
+- uid: Library.Step.PlayersRegistry
+  commentId: P:Library.Step.PlayersRegistry
+  parent: Library.Step
+  name: PlayersRegistry
+  nameWithType: Step.PlayersRegistry
+  fullName: Library.Step.PlayersRegistry
+- uid: Library.Step.NextStep
+  commentId: P:Library.Step.NextStep
+  parent: Library.Step
+  name: NextStep
+  nameWithType: Step.NextStep
+  fullName: Library.Step.NextStep
+- uid: Library.Step.Name
+  commentId: P:Library.Step.Name
+  parent: Library.Step
+  name: Name
+  nameWithType: Step.Name
+  fullName: Library.Step.Name
+- uid: Library.Step.PlayersIn
+  commentId: P:Library.Step.PlayersIn
+  parent: Library.Step
+  name: PlayersIn
+  nameWithType: Step.PlayersIn
+  fullName: Library.Step.PlayersIn
+- uid: Library.Step.PlayerDeparture(Library.Traveler)
+  commentId: M:Library.Step.PlayerDeparture(Library.Traveler)
+  parent: Library.Step
+  name: PlayerDeparture(Traveler)
+  nameWithType: Step.PlayerDeparture(Traveler)
+  fullName: Library.Step.PlayerDeparture(Library.Traveler)
+  spec.csharp:
+  - uid: Library.Step.PlayerDeparture(Library.Traveler)
+    name: PlayerDeparture
+    nameWithType: Step.PlayerDeparture
+    fullName: Library.Step.PlayerDeparture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Library.Step.PlayerDeparture(Library.Traveler)
+    name: PlayerDeparture
+    nameWithType: Step.PlayerDeparture
+    fullName: Library.Step.PlayerDeparture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.FirstStep.#ctor*
+  commentId: Overload:Library.FirstStep.#ctor
+  name: FirstStep
+  nameWithType: FirstStep.FirstStep
+  fullName: Library.FirstStep.FirstStep
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Library.Step.RegisterPlayer(Library.Traveler)
+  commentId: M:Library.Step.RegisterPlayer(Library.Traveler)
+  parent: Library.Step
+  name: RegisterPlayer(Traveler)
+  nameWithType: Step.RegisterPlayer(Traveler)
+  fullName: Library.Step.RegisterPlayer(Library.Traveler)
+  spec.csharp:
+  - uid: Library.Step.RegisterPlayer(Library.Traveler)
+    name: RegisterPlayer
+    nameWithType: Step.RegisterPlayer
+    fullName: Library.Step.RegisterPlayer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Library.Step.RegisterPlayer(Library.Traveler)
+    name: RegisterPlayer
+    nameWithType: Step.RegisterPlayer
+    fullName: Library.Step.RegisterPlayer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Library.FirstStep.RegisterPlayer*
+  commentId: Overload:Library.FirstStep.RegisterPlayer
+  name: RegisterPlayer
+  nameWithType: FirstStep.RegisterPlayer
+  fullName: Library.FirstStep.RegisterPlayer
+- uid: Library.Traveler
+  commentId: T:Library.Traveler
+  parent: Library
+  name: Traveler
+  nameWithType: Traveler
+  fullName: Library.Traveler
+- uid: Library.Step.PlayerArrival(Library.Traveler,System.Boolean)
+  commentId: M:Library.Step.PlayerArrival(Library.Traveler,System.Boolean)
+  parent: Library.Step
+  isExternal: true
+  name: PlayerArrival(Traveler, Boolean)
+  nameWithType: Step.PlayerArrival(Traveler, Boolean)
+  fullName: Library.Step.PlayerArrival(Library.Traveler, System.Boolean)
+  spec.csharp:
+  - uid: Library.Step.PlayerArrival(Library.Traveler,System.Boolean)
+    name: PlayerArrival
+    nameWithType: Step.PlayerArrival
+    fullName: Library.Step.PlayerArrival
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Library.Step.PlayerArrival(Library.Traveler,System.Boolean)
+    name: PlayerArrival
+    nameWithType: Step.PlayerArrival
+    fullName: Library.Step.PlayerArrival
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Library.FirstStep.PlayerArrival*
+  commentId: Overload:Library.FirstStep.PlayerArrival
+  name: PlayerArrival
+  nameWithType: FirstStep.PlayerArrival
+  fullName: Library.FirstStep.PlayerArrival
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

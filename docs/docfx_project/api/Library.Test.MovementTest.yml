@@ -1,0 +1,506 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.Test.MovementTest
+  commentId: T:Library.Test.MovementTest
+  id: MovementTest
+  parent: Library.Test
+  children:
+  - Library.Test.MovementTest.AreThereMovementsLeft_AreTravelersStillTraveling
+  - Library.Test.MovementTest.FindStepWithPlayer_Traveler_Step
+  - Library.Test.MovementTest.MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother
+  - Library.Test.MovementTest.MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation
+  - Library.Test.MovementTest.Setup
+  langs:
+  - csharp
+  - vb
+  name: MovementTest
+  nameWithType: MovementTest
+  fullName: Library.Test.MovementTest
+  type: Class
+  source:
+    id: MovementTest
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\MovementTest.cs
+    startLine: 6
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  syntax:
+    content: public class MovementTest
+    content.vb: Public Class MovementTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.Test.MovementTest.Setup
+  commentId: M:Library.Test.MovementTest.Setup
+  id: Setup
+  parent: Library.Test.MovementTest
+  langs:
+  - csharp
+  - vb
+  name: Setup()
+  nameWithType: MovementTest.Setup()
+  fullName: Library.Test.MovementTest.Setup()
+  type: Method
+  source:
+    id: Setup
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\MovementTest.cs
+    startLine: 9
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  syntax:
+    content: public void Setup()
+    content.vb: Public Sub Setup
+  overload: Library.Test.MovementTest.Setup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.MovementTest.MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother
+  commentId: M:Library.Test.MovementTest.MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother
+  id: MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother
+  parent: Library.Test.MovementTest
+  langs:
+  - csharp
+  - vb
+  name: MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother()
+  nameWithType: MovementTest.MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother()
+  fullName: Library.Test.MovementTest.MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother()
+  type: Method
+  source:
+    id: MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\MovementTest.cs
+    startLine: 20
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest que evalúa que el método MakeMove funcione correctamente.\nEn este caso se evalúa el correcto recorrido de un viajero hasta llegar al final desde donde ya no se puede seguir moviendo hacia delante.\n"
+  example: []
+  syntax:
+    content: public void MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother()
+    content.vb: Public Sub MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother
+  overload: Library.Test.MovementTest.MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.MovementTest.MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation
+  commentId: M:Library.Test.MovementTest.MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation
+  id: MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation
+  parent: Library.Test.MovementTest
+  langs:
+  - csharp
+  - vb
+  name: MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation()
+  nameWithType: MovementTest.MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation()
+  fullName: Library.Test.MovementTest.MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation()
+  type: Method
+  source:
+    id: MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\MovementTest.cs
+    startLine: 62
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest que evalúa que el método MakeMove funcione correctamente y no deje entrar sí la estación no permite más viajeros.\n"
+  example: []
+  syntax:
+    content: public void MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation()
+    content.vb: Public Sub MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation
+  overload: Library.Test.MovementTest.MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.MovementTest.AreThereMovementsLeft_AreTravelersStillTraveling
+  commentId: M:Library.Test.MovementTest.AreThereMovementsLeft_AreTravelersStillTraveling
+  id: AreThereMovementsLeft_AreTravelersStillTraveling
+  parent: Library.Test.MovementTest
+  langs:
+  - csharp
+  - vb
+  name: AreThereMovementsLeft_AreTravelersStillTraveling()
+  nameWithType: MovementTest.AreThereMovementsLeft_AreTravelersStillTraveling()
+  fullName: Library.Test.MovementTest.AreThereMovementsLeft_AreTravelersStillTraveling()
+  type: Method
+  source:
+    id: AreThereMovementsLeft_AreTravelersStillTraveling
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\MovementTest.cs
+    startLine: 106
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest que evalúa que el método AreThereMovementsLeft funcione correctamente. \nEn este caso se evalúa varias veces con 2 jugadores y se espera que solo retorne false cuando ambos llegaron al final.\n"
+  example: []
+  syntax:
+    content: public void AreThereMovementsLeft_AreTravelersStillTraveling()
+    content.vb: Public Sub AreThereMovementsLeft_AreTravelersStillTraveling
+  overload: Library.Test.MovementTest.AreThereMovementsLeft_AreTravelersStillTraveling*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.MovementTest.FindStepWithPlayer_Traveler_Step
+  commentId: M:Library.Test.MovementTest.FindStepWithPlayer_Traveler_Step
+  id: FindStepWithPlayer_Traveler_Step
+  parent: Library.Test.MovementTest
+  langs:
+  - csharp
+  - vb
+  name: FindStepWithPlayer_Traveler_Step()
+  nameWithType: MovementTest.FindStepWithPlayer_Traveler_Step()
+  fullName: Library.Test.MovementTest.FindStepWithPlayer_Traveler_Step()
+  type: Method
+  source:
+    id: FindStepWithPlayer_Traveler_Step
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\MovementTest.cs
+    startLine: 157
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest que evalúa el correcto funcionamiento del método FindStepWithPlayer.\n"
+  example: []
+  syntax:
+    content: public void FindStepWithPlayer_Traveler_Step()
+    content.vb: Public Sub FindStepWithPlayer_Traveler_Step
+  overload: Library.Test.MovementTest.FindStepWithPlayer_Traveler_Step*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Library.Test
+  commentId: N:Library.Test
+  name: Library.Test
+  nameWithType: Library.Test
+  fullName: Library.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.Test.MovementTest.Setup*
+  commentId: Overload:Library.Test.MovementTest.Setup
+  name: Setup
+  nameWithType: MovementTest.Setup
+  fullName: Library.Test.MovementTest.Setup
+- uid: Library.Test.MovementTest.MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother*
+  commentId: Overload:Library.Test.MovementTest.MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother
+  name: MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother
+  nameWithType: MovementTest.MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother
+  fullName: Library.Test.MovementTest.MakeMove_TravelerAndDecision_MoveTravelerFromOneStepToAnother
+- uid: Library.Test.MovementTest.MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation*
+  commentId: Overload:Library.Test.MovementTest.MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation
+  name: MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation
+  nameWithType: MovementTest.MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation
+  fullName: Library.Test.MovementTest.MakeMove_TravelerAndDecision_NotLetTravelerIntoACompleteStation
+- uid: Library.Test.MovementTest.AreThereMovementsLeft_AreTravelersStillTraveling*
+  commentId: Overload:Library.Test.MovementTest.AreThereMovementsLeft_AreTravelersStillTraveling
+  name: AreThereMovementsLeft_AreTravelersStillTraveling
+  nameWithType: MovementTest.AreThereMovementsLeft_AreTravelersStillTraveling
+  fullName: Library.Test.MovementTest.AreThereMovementsLeft_AreTravelersStillTraveling
+- uid: Library.Test.MovementTest.FindStepWithPlayer_Traveler_Step*
+  commentId: Overload:Library.Test.MovementTest.FindStepWithPlayer_Traveler_Step
+  name: FindStepWithPlayer_Traveler_Step
+  nameWithType: MovementTest.FindStepWithPlayer_Traveler_Step
+  fullName: Library.Test.MovementTest.FindStepWithPlayer_Traveler_Step

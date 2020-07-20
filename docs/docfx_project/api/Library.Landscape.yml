@@ -1,0 +1,355 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.Landscape
+  commentId: T:Library.Landscape
+  id: Landscape
+  parent: Library
+  children:
+  - Library.Landscape.#ctor(System.Int32,Library.Step,System.String)
+  langs:
+  - csharp
+  - vb
+  name: Landscape
+  nameWithType: Landscape
+  fullName: Library.Landscape
+  type: Class
+  source:
+    id: Landscape
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Landscape.cs
+    startLine: 14
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: 'public abstract class Landscape : Station'
+    content.vb: >-
+      Public MustInherit Class Landscape
+
+          Inherits Station
+  inheritance:
+  - System.Object
+  - Library.Step
+  - Station
+  derivedClasses:
+  - Library.Mountain
+  - Library.Ocean
+  inheritedMembers:
+  - Station.PeopleLimit
+  - Station.RegisterPlayer(Library.Traveler)
+  - Station.PlayerArrival(Library.Traveler,System.Boolean)
+  - Station.Host(Library.Traveler)
+  - Station.IsRoomAvailable
+  - Library.Step.PlayersRegistry
+  - Library.Step.NextStep
+  - Library.Step.Name
+  - Library.Step.PlayersIn
+  - Library.Step.PlayerDeparture(Library.Traveler)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Library.Landscape.#ctor(System.Int32,Library.Step,System.String)
+  commentId: M:Library.Landscape.#ctor(System.Int32,Library.Step,System.String)
+  id: '#ctor(System.Int32,Library.Step,System.String)'
+  parent: Library.Landscape
+  langs:
+  - csharp
+  - vb
+  name: Landscape(Int32, Step, String)
+  nameWithType: Landscape.Landscape(Int32, Step, String)
+  fullName: Library.Landscape.Landscape(System.Int32, Library.Step, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Landscape.cs
+    startLine: 24
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nConstructor de la clase que recibe por parámetro un entero y un objeto de tipo Step e instancia al objeto PlayersRegistry.\n"
+  example: []
+  syntax:
+    content: public Landscape(int peopleLimit, Step nextStep, string name = "Landscape")
+    parameters:
+    - id: peopleLimit
+      type: System.Int32
+      description: ''
+    - id: nextStep
+      type: Library.Step
+      description: ''
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(peopleLimit As Integer, nextStep As  Step, name As String = "Landscape")
+  overload: Library.Landscape.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Library
+  commentId: N:Library
+  name: Library
+  nameWithType: Library
+  fullName: Library
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Library.Step
+  commentId: T:Library.Step
+  parent: Library
+  name: Step
+  nameWithType: Step
+  fullName: Library.Step
+- uid: Station
+  commentId: T:Station
+  name: Station
+  nameWithType: Station
+  fullName: Station
+- uid: Station.PeopleLimit
+  commentId: P:Station.PeopleLimit
+  parent: Station
+  name: PeopleLimit
+  nameWithType: Station.PeopleLimit
+  fullName: Station.PeopleLimit
+- uid: Station.RegisterPlayer(Library.Traveler)
+  commentId: M:Station.RegisterPlayer(Library.Traveler)
+  parent: Station
+  name: RegisterPlayer(Traveler)
+  nameWithType: Station.RegisterPlayer(Traveler)
+  fullName: Station.RegisterPlayer(Library.Traveler)
+  spec.csharp:
+  - uid: Station.RegisterPlayer(Library.Traveler)
+    name: RegisterPlayer
+    nameWithType: Station.RegisterPlayer
+    fullName: Station.RegisterPlayer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Station.RegisterPlayer(Library.Traveler)
+    name: RegisterPlayer
+    nameWithType: Station.RegisterPlayer
+    fullName: Station.RegisterPlayer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Station.PlayerArrival(Library.Traveler,System.Boolean)
+  commentId: M:Station.PlayerArrival(Library.Traveler,System.Boolean)
+  parent: Station
+  isExternal: true
+  name: PlayerArrival(Traveler, Boolean)
+  nameWithType: Station.PlayerArrival(Traveler, Boolean)
+  fullName: Station.PlayerArrival(Library.Traveler, System.Boolean)
+  spec.csharp:
+  - uid: Station.PlayerArrival(Library.Traveler,System.Boolean)
+    name: PlayerArrival
+    nameWithType: Station.PlayerArrival
+    fullName: Station.PlayerArrival
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Station.PlayerArrival(Library.Traveler,System.Boolean)
+    name: PlayerArrival
+    nameWithType: Station.PlayerArrival
+    fullName: Station.PlayerArrival
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Station.Host(Library.Traveler)
+  commentId: M:Station.Host(Library.Traveler)
+  parent: Station
+  name: Host(Traveler)
+  nameWithType: Station.Host(Traveler)
+  fullName: Station.Host(Library.Traveler)
+  spec.csharp:
+  - uid: Station.Host(Library.Traveler)
+    name: Host
+    nameWithType: Station.Host
+    fullName: Station.Host
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Station.Host(Library.Traveler)
+    name: Host
+    nameWithType: Station.Host
+    fullName: Station.Host
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Station.IsRoomAvailable
+  commentId: M:Station.IsRoomAvailable
+  parent: Station
+  name: IsRoomAvailable()
+  nameWithType: Station.IsRoomAvailable()
+  fullName: Station.IsRoomAvailable()
+  spec.csharp:
+  - uid: Station.IsRoomAvailable
+    name: IsRoomAvailable
+    nameWithType: Station.IsRoomAvailable
+    fullName: Station.IsRoomAvailable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Station.IsRoomAvailable
+    name: IsRoomAvailable
+    nameWithType: Station.IsRoomAvailable
+    fullName: Station.IsRoomAvailable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Library.Step.PlayersRegistry
+  commentId: P:Library.Step.PlayersRegistry
+  parent: Library.Step
+  name: PlayersRegistry
+  nameWithType: Step.PlayersRegistry
+  fullName: Library.Step.PlayersRegistry
+- uid: Library.Step.NextStep
+  commentId: P:Library.Step.NextStep
+  parent: Library.Step
+  name: NextStep
+  nameWithType: Step.NextStep
+  fullName: Library.Step.NextStep
+- uid: Library.Step.Name
+  commentId: P:Library.Step.Name
+  parent: Library.Step
+  name: Name
+  nameWithType: Step.Name
+  fullName: Library.Step.Name
+- uid: Library.Step.PlayersIn
+  commentId: P:Library.Step.PlayersIn
+  parent: Library.Step
+  name: PlayersIn
+  nameWithType: Step.PlayersIn
+  fullName: Library.Step.PlayersIn
+- uid: Library.Step.PlayerDeparture(Library.Traveler)
+  commentId: M:Library.Step.PlayerDeparture(Library.Traveler)
+  parent: Library.Step
+  name: PlayerDeparture(Traveler)
+  nameWithType: Step.PlayerDeparture(Traveler)
+  fullName: Library.Step.PlayerDeparture(Library.Traveler)
+  spec.csharp:
+  - uid: Library.Step.PlayerDeparture(Library.Traveler)
+    name: PlayerDeparture
+    nameWithType: Step.PlayerDeparture
+    fullName: Library.Step.PlayerDeparture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Library.Step.PlayerDeparture(Library.Traveler)
+    name: PlayerDeparture
+    nameWithType: Step.PlayerDeparture
+    fullName: Library.Step.PlayerDeparture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.Landscape.#ctor*
+  commentId: Overload:Library.Landscape.#ctor
+  name: Landscape
+  nameWithType: Landscape.Landscape
+  fullName: Library.Landscape.Landscape
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

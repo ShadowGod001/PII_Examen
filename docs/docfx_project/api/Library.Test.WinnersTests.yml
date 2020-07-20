@@ -1,0 +1,472 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.Test.WinnersTests
+  commentId: T:Library.Test.WinnersTests
+  id: WinnersTests
+  parent: Library.Test
+  children:
+  - Library.Test.WinnersTests.SelectWinners_ListOfTravelers_AllWinners
+  - Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinner
+  - Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinners
+  - Library.Test.WinnersTests.Setup
+  langs:
+  - csharp
+  - vb
+  name: WinnersTests
+  nameWithType: WinnersTests
+  fullName: Library.Test.WinnersTests
+  type: Class
+  source:
+    id: WinnersTests
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\WinnersTest.cs
+    startLine: 7
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  syntax:
+    content: public class WinnersTests
+    content.vb: Public Class WinnersTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.Test.WinnersTests.Setup
+  commentId: M:Library.Test.WinnersTests.Setup
+  id: Setup
+  parent: Library.Test.WinnersTests
+  langs:
+  - csharp
+  - vb
+  name: Setup()
+  nameWithType: WinnersTests.Setup()
+  fullName: Library.Test.WinnersTests.Setup()
+  type: Method
+  source:
+    id: Setup
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\WinnersTest.cs
+    startLine: 9
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  syntax:
+    content: public void Setup()
+    content.vb: Public Sub Setup
+  overload: Library.Test.WinnersTests.Setup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinner
+  commentId: M:Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinner
+  id: SelectWinners_ListOfTravelers_ListOfWinner
+  parent: Library.Test.WinnersTests
+  langs:
+  - csharp
+  - vb
+  name: SelectWinners_ListOfTravelers_ListOfWinner()
+  nameWithType: WinnersTests.SelectWinners_ListOfTravelers_ListOfWinner()
+  fullName: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinner()
+  type: Method
+  source:
+    id: SelectWinners_ListOfTravelers_ListOfWinner
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\WinnersTest.cs
+    startLine: 19
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest para evaluar el correcto funcionamiento del método SelectWinners.\nEn este caso se evalúa que se seleccione al ganador correctamente.\n"
+  example: []
+  syntax:
+    content: public void SelectWinners_ListOfTravelers_ListOfWinner()
+    content.vb: Public Sub SelectWinners_ListOfTravelers_ListOfWinner
+  overload: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinner*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinners
+  commentId: M:Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinners
+  id: SelectWinners_ListOfTravelers_ListOfWinners
+  parent: Library.Test.WinnersTests
+  langs:
+  - csharp
+  - vb
+  name: SelectWinners_ListOfTravelers_ListOfWinners()
+  nameWithType: WinnersTests.SelectWinners_ListOfTravelers_ListOfWinners()
+  fullName: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinners()
+  type: Method
+  source:
+    id: SelectWinners_ListOfTravelers_ListOfWinners
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\WinnersTest.cs
+    startLine: 48
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest para evaluar el correcto funcionamiento del método SelectWinners.\nEn este caso se evalúa que si hay 2 ganadores se agreguen ambos a la lista de ganadores.\n"
+  example: []
+  syntax:
+    content: public void SelectWinners_ListOfTravelers_ListOfWinners()
+    content.vb: Public Sub SelectWinners_ListOfTravelers_ListOfWinners
+  overload: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinners*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_AllWinners
+  commentId: M:Library.Test.WinnersTests.SelectWinners_ListOfTravelers_AllWinners
+  id: SelectWinners_ListOfTravelers_AllWinners
+  parent: Library.Test.WinnersTests
+  langs:
+  - csharp
+  - vb
+  name: SelectWinners_ListOfTravelers_AllWinners()
+  nameWithType: WinnersTests.SelectWinners_ListOfTravelers_AllWinners()
+  fullName: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_AllWinners()
+  type: Method
+  source:
+    id: SelectWinners_ListOfTravelers_AllWinners
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\WinnersTest.cs
+    startLine: 78
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest para evaluar el correcto funcionamiento del método SelectWinners.\nEn este caso se evalúa que si todos los viajeros van directo hasta el EndStep sin entrar a ninguna experiencia, al tener todos la \nmisma cantidad de puntos (0), todos serían ganadores.\n"
+  example: []
+  syntax:
+    content: public void SelectWinners_ListOfTravelers_AllWinners()
+    content.vb: Public Sub SelectWinners_ListOfTravelers_AllWinners
+  overload: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_AllWinners*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Library.Test
+  commentId: N:Library.Test
+  name: Library.Test
+  nameWithType: Library.Test
+  fullName: Library.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.Test.WinnersTests.Setup*
+  commentId: Overload:Library.Test.WinnersTests.Setup
+  name: Setup
+  nameWithType: WinnersTests.Setup
+  fullName: Library.Test.WinnersTests.Setup
+- uid: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinner*
+  commentId: Overload:Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinner
+  name: SelectWinners_ListOfTravelers_ListOfWinner
+  nameWithType: WinnersTests.SelectWinners_ListOfTravelers_ListOfWinner
+  fullName: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinner
+- uid: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinners*
+  commentId: Overload:Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinners
+  name: SelectWinners_ListOfTravelers_ListOfWinners
+  nameWithType: WinnersTests.SelectWinners_ListOfTravelers_ListOfWinners
+  fullName: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_ListOfWinners
+- uid: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_AllWinners*
+  commentId: Overload:Library.Test.WinnersTests.SelectWinners_ListOfTravelers_AllWinners
+  name: SelectWinners_ListOfTravelers_AllWinners
+  nameWithType: WinnersTests.SelectWinners_ListOfTravelers_AllWinners
+  fullName: Library.Test.WinnersTests.SelectWinners_ListOfTravelers_AllWinners

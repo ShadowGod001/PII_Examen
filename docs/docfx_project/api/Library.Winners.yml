@@ -1,0 +1,214 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.Winners
+  commentId: T:Library.Winners
+  id: Winners
+  parent: Library
+  children:
+  - Library.Winners.#ctor(List{Library.Traveler})
+  - Library.Winners.ListOfWinners
+  langs:
+  - csharp
+  - vb
+  name: Winners
+  nameWithType: Winners
+  fullName: Library.Winners
+  type: Class
+  source:
+    id: Winners
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Winners.cs
+    startLine: 20
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: 'public class Winners : object'
+    content.vb: >-
+      Public Class Winners
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.Winners.ListOfWinners
+  commentId: P:Library.Winners.ListOfWinners
+  id: ListOfWinners
+  parent: Library.Winners
+  langs:
+  - csharp
+  - vb
+  name: ListOfWinners
+  nameWithType: Winners.ListOfWinners
+  fullName: Library.Winners.ListOfWinners
+  type: Property
+  source:
+    id: ListOfWinners
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Winners.cs
+    startLine: 26
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nLista de objetos tipo Traveler donde se van a guardar los ganadores.\n"
+  example: []
+  syntax:
+    content: public List<Traveler> ListOfWinners { get; }
+    parameters: []
+    return:
+      type: List{Library.Traveler}
+      description: ''
+    content.vb: Public ReadOnly Property ListOfWinners As List(Of Traveler)
+  overload: Library.Winners.ListOfWinners*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Library.Winners.#ctor(List{Library.Traveler})
+  commentId: M:Library.Winners.#ctor(List{Library.Traveler})
+  id: '#ctor(List{Library.Traveler})'
+  parent: Library.Winners
+  langs:
+  - csharp
+  - vb
+  name: Winners(List<Traveler>)
+  nameWithType: Winners.Winners(List<Traveler>)
+  fullName: Library.Winners.Winners(List<Library.Traveler>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Winners.cs
+    startLine: 32
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nConstructor de la clase que recibe como parámetro una lista de objetos tipo Traveler y los pasa como argumento a SelectWinners.\n"
+  example: []
+  syntax:
+    content: public Winners(List<Traveler> travelers)
+    parameters:
+    - id: travelers
+      type: List{Library.Traveler}
+      description: ''
+    content.vb: Public Sub New(travelers As List(Of Traveler))
+  overload: Library.Winners.#ctor*
+  nameWithType.vb: Winners.Winners(List(Of Traveler))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Library.Winners.Winners(List(Of Library.Traveler))
+  name.vb: Winners(List(Of Traveler))
+references:
+- uid: Library
+  commentId: N:Library
+  name: Library
+  nameWithType: Library
+  fullName: Library
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.Winners.ListOfWinners*
+  commentId: Overload:Library.Winners.ListOfWinners
+  name: ListOfWinners
+  nameWithType: Winners.ListOfWinners
+  fullName: Library.Winners.ListOfWinners
+- uid: List{Library.Traveler}
+  commentId: '!:List{Library.Traveler}'
+  definition: List`1
+  name: List<Traveler>
+  nameWithType: List<Traveler>
+  fullName: List<Library.Traveler>
+  nameWithType.vb: List(Of Traveler)
+  fullName.vb: List(Of Library.Traveler)
+  name.vb: List(Of Traveler)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Library.Winners.#ctor*
+  commentId: Overload:Library.Winners.#ctor
+  name: Winners
+  nameWithType: Winners.Winners
+  fullName: Library.Winners.Winners

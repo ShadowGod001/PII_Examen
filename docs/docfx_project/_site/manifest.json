@@ -1,0 +1,498 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Fran/Desktop/PII_Examen-master/docs/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Board.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Board.html",
+          "hash": "2IuxWN241JI3ZBhcARV2qQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.EndStep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.EndStep.html",
+          "hash": "7idjtck1p1nTQtRwOM6DLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Farm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Farm.html",
+          "hash": "0uVVxHErZ3eh/4mwHmSBkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.FirstStep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.FirstStep.html",
+          "hash": "9jdB8s3NyypNE5gf3o4n1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.GameData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.GameData.html",
+          "hash": "JG5vYFaL1EBlxNtV4MeZvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Landscape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Landscape.html",
+          "hash": "JgumjljzxdGo6Rfxh+IuVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Mountain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Mountain.html",
+          "hash": "4szAap0V1CK8YyS2IqnEwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Movement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Movement.html",
+          "hash": "bV/bAs7/VKUruwyfXHxwUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.NextStepNullException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.NextStepNullException.html",
+          "hash": "GwdZ37f1IRIUihGZXpTDCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Ocean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Ocean.html",
+          "hash": "cYKt5QQPj3HxyLqVreZNdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Step.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Step.html",
+          "hash": "1v20s9wLy7iZxrXGDV6nGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.EndStepTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.EndStepTest.html",
+          "hash": "vK1TlrkXkT+8PVzh1BB40w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.FarmTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.FarmTest.html",
+          "hash": "tNMmB8T7OikKM74n7koFiw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.FirstStepTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.FirstStepTest.html",
+          "hash": "L71RL65Qqtk1L1h7zNNaLg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.LandscapeTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.LandscapeTest.html",
+          "hash": "mGZ6FadSPqwvfyrafNFNUw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.MountainTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.MountainTest.html",
+          "hash": "P59EEb0enuGvlLrQgEk4Yw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.MovementTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.MovementTest.html",
+          "hash": "0YvCwX/KBPLajILN+A4gKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.NextStepNullExceptionTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.NextStepNullExceptionTest.html",
+          "hash": "S+VNi2nlCbqpzH4jpOqiAw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.OceanTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.OceanTest.html",
+          "hash": "QiLYJej3CzKwkSJj4mnm7g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.StationTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.StationTest.html",
+          "hash": "mAZy7e2Ecqgx4CJ//uePFQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.StepTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.StepTest.html",
+          "hash": "nPx51sn1p8Z548irXE1kIg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.Tests.html",
+          "hash": "7ZzN5ZxclCZcoGkiUB6tJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.ThermalWatersTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.ThermalWatersTest.html",
+          "hash": "6Xwhmu17PpycWKjQKwyrNg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.TravelerNullExceptionTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.TravelerNullExceptionTest.html",
+          "hash": "qvmizH/cZ8ML9aQxyQxcaw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.TravelerShuffleTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.TravelerShuffleTest.html",
+          "hash": "7hQ/xbeKXcnHUgrOQaaDIA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.TravelerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.TravelerTests.html",
+          "hash": "s7njT/V2hVWA5TtWq8S3fg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.WinnersTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.WinnersTests.html",
+          "hash": "mKAed+Ka9HqlJSgn9h0uXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Test.html",
+          "hash": "V2cjPVTQuda8tEsbVjw4FA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.ThermalWaters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.ThermalWaters.html",
+          "hash": "R3dVP3x3A4IIyjrF2VLFaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Traveler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Traveler.html",
+          "hash": "2EwJ3vRoTS4HosA1aO2oiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.TravelerShuffler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.TravelerShuffler.html",
+          "hash": "poZ7Q9hw+Y8HUVtr+uJzhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.TurnController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.TurnController.html",
+          "hash": "I+qyv0KUttLmvI12Gd9/EQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.Winners.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.Winners.html",
+          "hash": "XAXVIwCbF7FfPfyZlx2Lfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Library.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Library.html",
+          "hash": "Zu0FIPlMn5i0xhXYX6cKWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "2MxXhuFmpO3Si9ThmrNftQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "JRWklKnN9VfzADlOwPWt6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "iYAdUFsvHTMI/xUWoNHpYA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 34,
+          "skipped_file_count": 18
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

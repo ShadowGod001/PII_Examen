@@ -1,0 +1,404 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.Test.OceanTest
+  commentId: T:Library.Test.OceanTest
+  id: OceanTest
+  parent: Library.Test
+  children:
+  - Library.Test.OceanTest.Host_Traveler_UpdateRegisterPlayerAndUpdateScore
+  - Library.Test.OceanTest.Setup
+  langs:
+  - csharp
+  - vb
+  name: OceanTest
+  nameWithType: OceanTest
+  fullName: Library.Test.OceanTest
+  type: Class
+  source:
+    id: OceanTest
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\OceanTest.cs
+    startLine: 6
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  syntax:
+    content: public class OceanTest
+    content.vb: Public Class OceanTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.Test.OceanTest.Setup
+  commentId: M:Library.Test.OceanTest.Setup
+  id: Setup
+  parent: Library.Test.OceanTest
+  langs:
+  - csharp
+  - vb
+  name: Setup()
+  nameWithType: OceanTest.Setup()
+  fullName: Library.Test.OceanTest.Setup()
+  type: Method
+  source:
+    id: Setup
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\OceanTest.cs
+    startLine: 8
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  syntax:
+    content: public void Setup()
+    content.vb: Public Sub Setup
+  overload: Library.Test.OceanTest.Setup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.OceanTest.Host_Traveler_UpdateRegisterPlayerAndUpdateScore
+  commentId: M:Library.Test.OceanTest.Host_Traveler_UpdateRegisterPlayerAndUpdateScore
+  id: Host_Traveler_UpdateRegisterPlayerAndUpdateScore
+  parent: Library.Test.OceanTest
+  langs:
+  - csharp
+  - vb
+  name: Host_Traveler_UpdateRegisterPlayerAndUpdateScore()
+  nameWithType: OceanTest.Host_Traveler_UpdateRegisterPlayerAndUpdateScore()
+  fullName: Library.Test.OceanTest.Host_Traveler_UpdateRegisterPlayerAndUpdateScore()
+  type: Method
+  source:
+    id: Host_Traveler_UpdateRegisterPlayerAndUpdateScore
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\OceanTest.cs
+    startLine: 18
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest que evalúa el correcto funcionamiento del método Host.\nEn este caso la correcta asignación de Score y la correcta cantidad de veces que un viajero pasa por la experiencia.\n"
+  example: []
+  syntax:
+    content: public void Host_Traveler_UpdateRegisterPlayerAndUpdateScore()
+    content.vb: Public Sub Host_Traveler_UpdateRegisterPlayerAndUpdateScore
+  overload: Library.Test.OceanTest.Host_Traveler_UpdateRegisterPlayerAndUpdateScore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Library.Test
+  commentId: N:Library.Test
+  name: Library.Test
+  nameWithType: Library.Test
+  fullName: Library.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.Test.OceanTest.Setup*
+  commentId: Overload:Library.Test.OceanTest.Setup
+  name: Setup
+  nameWithType: OceanTest.Setup
+  fullName: Library.Test.OceanTest.Setup
+- uid: Library.Test.OceanTest.Host_Traveler_UpdateRegisterPlayerAndUpdateScore*
+  commentId: Overload:Library.Test.OceanTest.Host_Traveler_UpdateRegisterPlayerAndUpdateScore
+  name: Host_Traveler_UpdateRegisterPlayerAndUpdateScore
+  nameWithType: OceanTest.Host_Traveler_UpdateRegisterPlayerAndUpdateScore
+  fullName: Library.Test.OceanTest.Host_Traveler_UpdateRegisterPlayerAndUpdateScore

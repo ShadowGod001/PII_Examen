@@ -1,0 +1,222 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.TravelerShuffler
+  commentId: T:Library.TravelerShuffler
+  id: TravelerShuffler
+  parent: Library
+  children:
+  - Library.TravelerShuffler.GetShuffler
+  - Library.TravelerShuffler.ShuffleTravelers(List{Library.Traveler})
+  langs:
+  - csharp
+  - vb
+  name: TravelerShuffler
+  nameWithType: TravelerShuffler
+  fullName: Library.TravelerShuffler
+  type: Class
+  source:
+    id: TravelerShuffler
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\TravelerShuffler.cs
+    startLine: 20
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: 'public class TravelerShuffler : object'
+    content.vb: >-
+      Public Class TravelerShuffler
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.TravelerShuffler.GetShuffler
+  commentId: M:Library.TravelerShuffler.GetShuffler
+  id: GetShuffler
+  parent: Library.TravelerShuffler
+  langs:
+  - csharp
+  - vb
+  name: GetShuffler()
+  nameWithType: TravelerShuffler.GetShuffler()
+  fullName: Library.TravelerShuffler.GetShuffler()
+  type: Method
+  source:
+    id: GetShuffler
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\TravelerShuffler.cs
+    startLine: 39
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo get que se llama desde afuera de la clase para crear una nueva instancia de TravelerShuffler.\n"
+  example: []
+  syntax:
+    content: public static TravelerShuffler GetShuffler()
+    return:
+      type: Library.TravelerShuffler
+      description: ''
+    content.vb: Public Shared Function GetShuffler As TravelerShuffler
+  overload: Library.TravelerShuffler.GetShuffler*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Library.TravelerShuffler.ShuffleTravelers(List{Library.Traveler})
+  commentId: M:Library.TravelerShuffler.ShuffleTravelers(List{Library.Traveler})
+  id: ShuffleTravelers(List{Library.Traveler})
+  parent: Library.TravelerShuffler
+  langs:
+  - csharp
+  - vb
+  name: ShuffleTravelers(List<Traveler>)
+  nameWithType: TravelerShuffler.ShuffleTravelers(List<Traveler>)
+  fullName: Library.TravelerShuffler.ShuffleTravelers(List<Library.Traveler>)
+  type: Method
+  source:
+    id: ShuffleTravelers
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\TravelerShuffler.cs
+    startLine: 53
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo que recibe una lista de objetos tipo Traveler y los mezcla.\n"
+  example: []
+  syntax:
+    content: public List<Traveler> ShuffleTravelers(List<Traveler> travelers)
+    parameters:
+    - id: travelers
+      type: List{Library.Traveler}
+      description: ''
+    return:
+      type: List{Library.Traveler}
+      description: ''
+    content.vb: Public Function ShuffleTravelers(travelers As List(Of Traveler)) As List(Of Traveler)
+  overload: Library.TravelerShuffler.ShuffleTravelers*
+  nameWithType.vb: TravelerShuffler.ShuffleTravelers(List(Of Traveler))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Library.TravelerShuffler.ShuffleTravelers(List(Of Library.Traveler))
+  name.vb: ShuffleTravelers(List(Of Traveler))
+references:
+- uid: Library
+  commentId: N:Library
+  name: Library
+  nameWithType: Library
+  fullName: Library
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.TravelerShuffler.GetShuffler*
+  commentId: Overload:Library.TravelerShuffler.GetShuffler
+  name: GetShuffler
+  nameWithType: TravelerShuffler.GetShuffler
+  fullName: Library.TravelerShuffler.GetShuffler
+- uid: Library.TravelerShuffler
+  commentId: T:Library.TravelerShuffler
+  parent: Library
+  name: TravelerShuffler
+  nameWithType: TravelerShuffler
+  fullName: Library.TravelerShuffler
+- uid: Library.TravelerShuffler.ShuffleTravelers*
+  commentId: Overload:Library.TravelerShuffler.ShuffleTravelers
+  name: ShuffleTravelers
+  nameWithType: TravelerShuffler.ShuffleTravelers
+  fullName: Library.TravelerShuffler.ShuffleTravelers
+- uid: List{Library.Traveler}
+  commentId: '!:List{Library.Traveler}'
+  definition: List`1
+  name: List<Traveler>
+  nameWithType: List<Traveler>
+  fullName: List<Library.Traveler>
+  nameWithType.vb: List(Of Traveler)
+  fullName.vb: List(Of Library.Traveler)
+  name.vb: List(Of Traveler)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,274 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.Movement
+  commentId: T:Library.Movement
+  id: Movement
+  parent: Library
+  children:
+  - Library.Movement.#ctor(Library.GameData)
+  - Library.Movement.AreThereMovementsLeft
+  - Library.Movement.Data
+  - Library.Movement.FindStepWithPlayer(Library.Traveler)
+  - Library.Movement.MakeMove(Library.Traveler,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: Movement
+  nameWithType: Movement
+  fullName: Library.Movement
+  type: Class
+  source:
+    id: Movement
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Movement.cs
+    startLine: 22
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: 'public class Movement : object'
+    content.vb: >-
+      Public Class Movement
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.Movement.Data
+  commentId: P:Library.Movement.Data
+  id: Data
+  parent: Library.Movement
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: Movement.Data
+  fullName: Library.Movement.Data
+  type: Property
+  source:
+    id: Data
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Movement.cs
+    startLine: 28
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nObjeto Data de tipo GameData donde se guarda una lista de objetos tipo Traveler y un objeto tipo Board.\n"
+  example: []
+  syntax:
+    content: public GameData Data { get; }
+    parameters: []
+    return:
+      type: Library.GameData
+      description: ''
+    content.vb: Public ReadOnly Property Data As GameData
+  overload: Library.Movement.Data*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Library.Movement.#ctor(Library.GameData)
+  commentId: M:Library.Movement.#ctor(Library.GameData)
+  id: '#ctor(Library.GameData)'
+  parent: Library.Movement
+  langs:
+  - csharp
+  - vb
+  name: Movement(GameData)
+  nameWithType: Movement.Movement(GameData)
+  fullName: Library.Movement.Movement(Library.GameData)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Movement.cs
+    startLine: 34
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nEl constructor de la clase recibe por parámetro un objeto tipo GameData que luego asigna al objeto Data.\n"
+  example: []
+  syntax:
+    content: public Movement(GameData data)
+    parameters:
+    - id: data
+      type: Library.GameData
+      description: ''
+    content.vb: Public Sub New(data As GameData)
+  overload: Library.Movement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Movement.MakeMove(Library.Traveler,System.Boolean)
+  commentId: M:Library.Movement.MakeMove(Library.Traveler,System.Boolean)
+  id: MakeMove(Library.Traveler,System.Boolean)
+  parent: Library.Movement
+  langs:
+  - csharp
+  - vb
+  name: MakeMove(Traveler, Boolean)
+  nameWithType: Movement.MakeMove(Traveler, Boolean)
+  fullName: Library.Movement.MakeMove(Library.Traveler, System.Boolean)
+  type: Method
+  source:
+    id: MakeMove
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Movement.cs
+    startLine: 47
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo que permite movel al traveler. \nRecibe un objeto tipo traveler y una condición que de ser True le va a permitir al viajero entrar\na las experiencias y sumar puntos y monedas, y de ser false se va a quedar en la &quot;puerta&quot; de la experiencia sin ganar nada.\nMakeMove utiliza un objeto Step pero funcionará correctamente si se utiliza un subtipo de step por lo que el método cumple con LSP.\n"
+  example: []
+  syntax:
+    content: public void MakeMove(Traveler player, bool decision)
+    parameters:
+    - id: player
+      type: Library.Traveler
+      description: ''
+    - id: decision
+      type: System.Boolean
+      description: ''
+    content.vb: Public Sub MakeMove(player As Traveler, decision As Boolean)
+  overload: Library.Movement.MakeMove*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Movement.AreThereMovementsLeft
+  commentId: M:Library.Movement.AreThereMovementsLeft
+  id: AreThereMovementsLeft
+  parent: Library.Movement
+  langs:
+  - csharp
+  - vb
+  name: AreThereMovementsLeft()
+  nameWithType: Movement.AreThereMovementsLeft()
+  fullName: Library.Movement.AreThereMovementsLeft()
+  type: Method
+  source:
+    id: AreThereMovementsLeft
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Movement.cs
+    startLine: 78
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo para saber si todos los jugadores ya llegaron a la meta o no.\nNo quedan más movimientos cuando todos los travelers llegaron al EndStep.\nEste método es necesario para la responsabilidad de mover a los viajeros.\n"
+  example: []
+  syntax:
+    content: public bool AreThereMovementsLeft()
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function AreThereMovementsLeft As Boolean
+  overload: Library.Movement.AreThereMovementsLeft*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Movement.FindStepWithPlayer(Library.Traveler)
+  commentId: M:Library.Movement.FindStepWithPlayer(Library.Traveler)
+  id: FindStepWithPlayer(Library.Traveler)
+  parent: Library.Movement
+  langs:
+  - csharp
+  - vb
+  name: FindStepWithPlayer(Traveler)
+  nameWithType: Movement.FindStepWithPlayer(Traveler)
+  fullName: Library.Movement.FindStepWithPlayer(Library.Traveler)
+  type: Method
+  source:
+    id: FindStepWithPlayer
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Movement.cs
+    startLine: 100
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo que encuentra la posición del traveler.\nFindStepWithPlayer utiliza una lista objetos Step pero funcionará correctamente si se encuentran en la lista objetos subtipos de step \npor lo que el método cumple con LSP.\n"
+  example: []
+  syntax:
+    content: public Step FindStepWithPlayer(Traveler player)
+    parameters:
+    - id: player
+      type: Library.Traveler
+      description: ''
+    return:
+      type: Library.Step
+      description: ''
+    content.vb: 'Public Function FindStepWithPlayer(player As Traveler) As '
+  overload: Library.Movement.FindStepWithPlayer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Library
+  commentId: N:Library
+  name: Library
+  nameWithType: Library
+  fullName: Library
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.Movement.Data*
+  commentId: Overload:Library.Movement.Data
+  name: Data
+  nameWithType: Movement.Data
+  fullName: Library.Movement.Data
+- uid: Library.GameData
+  commentId: T:Library.GameData
+  parent: Library
+  name: GameData
+  nameWithType: GameData
+  fullName: Library.GameData
+- uid: Library.Movement.#ctor*
+  commentId: Overload:Library.Movement.#ctor
+  name: Movement
+  nameWithType: Movement.Movement
+  fullName: Library.Movement.Movement
+- uid: Library.Movement.MakeMove*
+  commentId: Overload:Library.Movement.MakeMove
+  name: MakeMove
+  nameWithType: Movement.MakeMove
+  fullName: Library.Movement.MakeMove
+- uid: Library.Traveler
+  commentId: T:Library.Traveler
+  parent: Library
+  name: Traveler
+  nameWithType: Traveler
+  fullName: Library.Traveler
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Library.Movement.AreThereMovementsLeft*
+  commentId: Overload:Library.Movement.AreThereMovementsLeft
+  name: AreThereMovementsLeft
+  nameWithType: Movement.AreThereMovementsLeft
+  fullName: Library.Movement.AreThereMovementsLeft
+- uid: Library.Movement.FindStepWithPlayer*
+  commentId: Overload:Library.Movement.FindStepWithPlayer
+  name: FindStepWithPlayer
+  nameWithType: Movement.FindStepWithPlayer
+  fullName: Library.Movement.FindStepWithPlayer
+- uid: Library.Step
+  commentId: T:Library.Step
+  parent: Library
+  name: Step
+  nameWithType: Step
+  fullName: Library.Step

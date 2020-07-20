@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.NextStepNullException
+  commentId: T:Library.NextStepNullException
+  id: NextStepNullException
+  parent: Library
+  children:
+  - Library.NextStepNullException.#ctor
+  - Library.NextStepNullException.#ctor(SerializationInfo,StreamingContext)
+  - Library.NextStepNullException.#ctor(System.String)
+  - Library.NextStepNullException.#ctor(System.String,Exception)
+  langs:
+  - csharp
+  - vb
+  name: NextStepNullException
+  nameWithType: NextStepNullException
+  fullName: Library.NextStepNullException
+  type: Class
+  source:
+    id: NextStepNullException
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\NextStepNullException.cs
+    startLine: 5
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: 'public class NextStepNullException : Exception'
+    content.vb: >-
+      Public Class NextStepNullException
+
+          Inherits Exception
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.NextStepNullException.#ctor
+  commentId: M:Library.NextStepNullException.#ctor
+  id: '#ctor'
+  parent: Library.NextStepNullException
+  langs:
+  - csharp
+  - vb
+  name: NextStepNullException()
+  nameWithType: NextStepNullException.NextStepNullException()
+  fullName: Library.NextStepNullException.NextStepNullException()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\NextStepNullException.cs
+    startLine: 8
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: public NextStepNullException()
+    content.vb: Public Sub New
+  overload: Library.NextStepNullException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.NextStepNullException.#ctor(System.String)
+  commentId: M:Library.NextStepNullException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Library.NextStepNullException
+  langs:
+  - csharp
+  - vb
+  name: NextStepNullException(String)
+  nameWithType: NextStepNullException.NextStepNullException(String)
+  fullName: Library.NextStepNullException.NextStepNullException(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\NextStepNullException.cs
+    startLine: 12
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: public NextStepNullException(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(message As String)
+  overload: Library.NextStepNullException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.NextStepNullException.#ctor(System.String,Exception)
+  commentId: M:Library.NextStepNullException.#ctor(System.String,Exception)
+  id: '#ctor(System.String,Exception)'
+  parent: Library.NextStepNullException
+  langs:
+  - csharp
+  - vb
+  name: NextStepNullException(String, Exception)
+  nameWithType: NextStepNullException.NextStepNullException(String, Exception)
+  fullName: Library.NextStepNullException.NextStepNullException(System.String, Exception)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\NextStepNullException.cs
+    startLine: 16
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: public NextStepNullException(string message, Exception innerException)
+    parameters:
+    - id: message
+      type: System.String
+    - id: innerException
+      type: Exception
+    content.vb: Public Sub New(message As String, innerException As Exception)
+  overload: Library.NextStepNullException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.NextStepNullException.#ctor(SerializationInfo,StreamingContext)
+  commentId: M:Library.NextStepNullException.#ctor(SerializationInfo,StreamingContext)
+  id: '#ctor(SerializationInfo,StreamingContext)'
+  parent: Library.NextStepNullException
+  langs:
+  - csharp
+  - vb
+  name: NextStepNullException(SerializationInfo, StreamingContext)
+  nameWithType: NextStepNullException.NextStepNullException(SerializationInfo, StreamingContext)
+  fullName: Library.NextStepNullException.NextStepNullException(SerializationInfo, StreamingContext)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\NextStepNullException.cs
+    startLine: 20
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: protected NextStepNullException(SerializationInfo info, StreamingContext context)
+    parameters:
+    - id: info
+      type: SerializationInfo
+    - id: context
+      type: StreamingContext
+    content.vb: Protected Sub New(info As SerializationInfo, context As StreamingContext)
+  overload: Library.NextStepNullException.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Library
+  commentId: N:Library
+  name: Library
+  nameWithType: Library
+  fullName: Library
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.NextStepNullException.#ctor*
+  commentId: Overload:Library.NextStepNullException.#ctor
+  name: NextStepNullException
+  nameWithType: NextStepNullException.NextStepNullException
+  fullName: Library.NextStepNullException.NextStepNullException
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Exception
+  commentId: '!:Exception'
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: SerializationInfo
+  commentId: '!:SerializationInfo'
+  isExternal: true
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: SerializationInfo
+- uid: StreamingContext
+  commentId: '!:StreamingContext'
+  isExternal: true
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: StreamingContext

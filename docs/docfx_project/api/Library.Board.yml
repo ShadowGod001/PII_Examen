@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.Board
+  commentId: T:Library.Board
+  id: Board
+  parent: Library
+  children:
+  - Library.Board.#ctor(List{Library.Step},Library.FirstStep,Library.EndStep)
+  - Library.Board.EndStep
+  - Library.Board.FirstStep
+  - Library.Board.LisOfSteps
+  langs:
+  - csharp
+  - vb
+  name: Board
+  nameWithType: Board
+  fullName: Library.Board
+  type: Class
+  source:
+    id: Board
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Board.cs
+    startLine: 19
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: 'public class Board : object'
+    content.vb: >-
+      Public Class Board
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.Board.LisOfSteps
+  commentId: P:Library.Board.LisOfSteps
+  id: LisOfSteps
+  parent: Library.Board
+  langs:
+  - csharp
+  - vb
+  name: LisOfSteps
+  nameWithType: Board.LisOfSteps
+  fullName: Library.Board.LisOfSteps
+  type: Property
+  source:
+    id: LisOfSteps
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Board.cs
+    startLine: 25
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nLista de objetos Step donde se guardan todos los steps que van a estar entre el FirstStep y el EndStep.\n"
+  example: []
+  syntax:
+    content: public List<Step> LisOfSteps { get; }
+    parameters: []
+    return:
+      type: List{Library.Step}
+      description: ''
+    content.vb: Public ReadOnly Property LisOfSteps As List(Of  Step)
+  overload: Library.Board.LisOfSteps*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Library.Board.FirstStep
+  commentId: P:Library.Board.FirstStep
+  id: FirstStep
+  parent: Library.Board
+  langs:
+  - csharp
+  - vb
+  name: FirstStep
+  nameWithType: Board.FirstStep
+  fullName: Library.Board.FirstStep
+  type: Property
+  source:
+    id: FirstStep
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Board.cs
+    startLine: 31
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nObjeto tipo FirstStep donde esta guardado el firststep.\n"
+  example: []
+  syntax:
+    content: public FirstStep FirstStep { get; }
+    parameters: []
+    return:
+      type: Library.FirstStep
+      description: ''
+    content.vb: Public ReadOnly Property FirstStep As FirstStep
+  overload: Library.Board.FirstStep*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Library.Board.EndStep
+  commentId: P:Library.Board.EndStep
+  id: EndStep
+  parent: Library.Board
+  langs:
+  - csharp
+  - vb
+  name: EndStep
+  nameWithType: Board.EndStep
+  fullName: Library.Board.EndStep
+  type: Property
+  source:
+    id: EndStep
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Board.cs
+    startLine: 37
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nObjeto tipo EndStep donde esta guardado el endstep.\n"
+  example: []
+  syntax:
+    content: public EndStep EndStep { get; }
+    parameters: []
+    return:
+      type: Library.EndStep
+      description: ''
+    content.vb: Public ReadOnly Property EndStep As EndStep
+  overload: Library.Board.EndStep*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Library.Board.#ctor(List{Library.Step},Library.FirstStep,Library.EndStep)
+  commentId: M:Library.Board.#ctor(List{Library.Step},Library.FirstStep,Library.EndStep)
+  id: '#ctor(List{Library.Step},Library.FirstStep,Library.EndStep)'
+  parent: Library.Board
+  langs:
+  - csharp
+  - vb
+  name: Board(List<Step>, FirstStep, EndStep)
+  nameWithType: Board.Board(List<Step>, FirstStep, EndStep)
+  fullName: Library.Board.Board(List<Library.Step>, Library.FirstStep, Library.EndStep)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Board.cs
+    startLine: 46
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nEl constructor de la clase recibe por parámetro una lista de objetos tipo Step, un objeto tipo FirstStep, y un objeto tipo EndStep a los\nque luego asigna a los objetos ListOfSteps, FirstStep y EndStep.\n"
+  example: []
+  syntax:
+    content: public Board(List<Step> steps, FirstStep firstStep, EndStep endStep)
+    parameters:
+    - id: steps
+      type: List{Library.Step}
+      description: ''
+    - id: firstStep
+      type: Library.FirstStep
+      description: ''
+    - id: endStep
+      type: Library.EndStep
+      description: ''
+    content.vb: Public Sub New(steps As List(Of  Step), firstStep As FirstStep, endStep As EndStep)
+  overload: Library.Board.#ctor*
+  nameWithType.vb: Board.Board(List(Of Step), FirstStep, EndStep)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Library.Board.Board(List(Of Library.Step), Library.FirstStep, Library.EndStep)
+  name.vb: Board(List(Of Step), FirstStep, EndStep)
+references:
+- uid: Library
+  commentId: N:Library
+  name: Library
+  nameWithType: Library
+  fullName: Library
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.Board.LisOfSteps*
+  commentId: Overload:Library.Board.LisOfSteps
+  name: LisOfSteps
+  nameWithType: Board.LisOfSteps
+  fullName: Library.Board.LisOfSteps
+- uid: List{Library.Step}
+  commentId: '!:List{Library.Step}'
+  definition: List`1
+  name: List<Step>
+  nameWithType: List<Step>
+  fullName: List<Library.Step>
+  nameWithType.vb: List(Of Step)
+  fullName.vb: List(Of Library.Step)
+  name.vb: List(Of Step)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Library.Step
+    name: Step
+    nameWithType: Step
+    fullName: Library.Step
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Library.Step
+    name: Step
+    nameWithType: Step
+    fullName: Library.Step
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Library.Board.FirstStep*
+  commentId: Overload:Library.Board.FirstStep
+  name: FirstStep
+  nameWithType: Board.FirstStep
+  fullName: Library.Board.FirstStep
+- uid: Library.FirstStep
+  commentId: T:Library.FirstStep
+  parent: Library
+  name: FirstStep
+  nameWithType: FirstStep
+  fullName: Library.FirstStep
+- uid: Library.Board.EndStep*
+  commentId: Overload:Library.Board.EndStep
+  name: EndStep
+  nameWithType: Board.EndStep
+  fullName: Library.Board.EndStep
+- uid: Library.EndStep
+  commentId: T:Library.EndStep
+  parent: Library
+  name: EndStep
+  nameWithType: EndStep
+  fullName: Library.EndStep
+- uid: Library.Board.#ctor*
+  commentId: Overload:Library.Board.#ctor
+  name: Board
+  nameWithType: Board.Board
+  fullName: Library.Board.Board

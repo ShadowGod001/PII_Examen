@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.Step
+  commentId: T:Library.Step
+  id: Step
+  parent: Library
+  children:
+  - Library.Step.#ctor(System.String)
+  - Library.Step.Name
+  - Library.Step.NextStep
+  - Library.Step.PlayerArrival(Library.Traveler,System.Boolean)
+  - Library.Step.PlayerDeparture(Library.Traveler)
+  - Library.Step.PlayersIn
+  - Library.Step.PlayersRegistry
+  - Library.Step.RegisterPlayer(Library.Traveler)
+  langs:
+  - csharp
+  - vb
+  name: Step
+  nameWithType: Step
+  fullName: Library.Step
+  type: Class
+  source:
+    id: Step
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Step.cs
+    startLine: 18
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: 'public abstract class Step : object'
+    content.vb: >-
+      Public MustInherit Class Step
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Library.EndStep
+  - Library.FirstStep
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Library.Step.#ctor(System.String)
+  commentId: M:Library.Step.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Library.Step
+  langs:
+  - csharp
+  - vb
+  name: Step(String)
+  nameWithType: Step.Step(String)
+  fullName: Library.Step.Step(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Step.cs
+    startLine: 24
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nConstructor de step para poder poner nombre a los steps.\n"
+  example: []
+  syntax:
+    content: public Step(string name = "Step")
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(name As String = "Step")
+  overload: Library.Step.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Step.PlayersRegistry
+  commentId: P:Library.Step.PlayersRegistry
+  id: PlayersRegistry
+  parent: Library.Step
+  langs:
+  - csharp
+  - vb
+  name: PlayersRegistry
+  nameWithType: Step.PlayersRegistry
+  fullName: Library.Step.PlayersRegistry
+  type: Property
+  source:
+    id: PlayersRegistry
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Step.cs
+    startLine: 32
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nDiccionario donde se guarda como clave el viajero y como valor la cantidad de veces que entró a la experiencia.\n"
+  example: []
+  syntax:
+    content: public Dictionary<Traveler, int> PlayersRegistry { get; set; }
+    parameters: []
+    return:
+      type: Dictionary{Library.Traveler,System.Int32}
+      description: ''
+    content.vb: Public Property PlayersRegistry As Dictionary(Of Traveler, Integer)
+  overload: Library.Step.PlayersRegistry*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Library.Step.NextStep
+  commentId: P:Library.Step.NextStep
+  id: NextStep
+  parent: Library.Step
+  langs:
+  - csharp
+  - vb
+  name: NextStep
+  nameWithType: Step.NextStep
+  fullName: Library.Step.NextStep
+  type: Property
+  source:
+    id: NextStep
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Step.cs
+    startLine: 38
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nEste atributo indica el próximo step al que se va a mover el viajero.\n"
+  example: []
+  syntax:
+    content: public Step NextStep { get; set; }
+    parameters: []
+    return:
+      type: Library.Step
+      description: ''
+    content.vb: 'Public Property NextStep As '
+  overload: Library.Step.NextStep*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Library.Step.Name
+  commentId: P:Library.Step.Name
+  id: Name
+  parent: Library.Step
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Step.Name
+  fullName: Library.Step.Name
+  type: Property
+  source:
+    id: Name
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Step.cs
+    startLine: 44
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nNombre para identificar el Step.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Property Name As String
+  overload: Library.Step.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Library.Step.PlayersIn
+  commentId: P:Library.Step.PlayersIn
+  id: PlayersIn
+  parent: Library.Step
+  langs:
+  - csharp
+  - vb
+  name: PlayersIn
+  nameWithType: Step.PlayersIn
+  fullName: Library.Step.PlayersIn
+  type: Property
+  source:
+    id: PlayersIn
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Step.cs
+    startLine: 50
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nLista de viajeros en el step.\n"
+  example: []
+  syntax:
+    content: public List<Traveler> PlayersIn { get; set; }
+    parameters: []
+    return:
+      type: List{Library.Traveler}
+      description: ''
+    content.vb: Public Property PlayersIn As List(Of Traveler)
+  overload: Library.Step.PlayersIn*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Library.Step.RegisterPlayer(Library.Traveler)
+  commentId: M:Library.Step.RegisterPlayer(Library.Traveler)
+  id: RegisterPlayer(Library.Traveler)
+  parent: Library.Step
+  langs:
+  - csharp
+  - vb
+  name: RegisterPlayer(Traveler)
+  nameWithType: Step.RegisterPlayer(Traveler)
+  fullName: Library.Step.RegisterPlayer(Library.Traveler)
+  type: Method
+  source:
+    id: RegisterPlayer
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Step.cs
+    startLine: 56
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo abstracto que recibe un por parámetro un objeto tipo Traveler.\n"
+  example: []
+  syntax:
+    content: public abstract void RegisterPlayer(Traveler player)
+    parameters:
+    - id: player
+      type: Library.Traveler
+      description: ''
+    content.vb: Public MustOverride Sub RegisterPlayer(player As Traveler)
+  overload: Library.Step.RegisterPlayer*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Library.Step.PlayerArrival(Library.Traveler,System.Boolean)
+  commentId: M:Library.Step.PlayerArrival(Library.Traveler,System.Boolean)
+  id: PlayerArrival(Library.Traveler,System.Boolean)
+  parent: Library.Step
+  langs:
+  - csharp
+  - vb
+  name: PlayerArrival(Traveler, Boolean)
+  nameWithType: Step.PlayerArrival(Traveler, Boolean)
+  fullName: Library.Step.PlayerArrival(Library.Traveler, System.Boolean)
+  type: Method
+  source:
+    id: PlayerArrival
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Step.cs
+    startLine: 64
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nEste método controla si el viajero quiere entrar al step. \nEn caso de no querer, se tiene que especificar, sino entra por defecto.\n"
+  example: []
+  syntax:
+    content: public abstract void PlayerArrival(Traveler player, bool decision = true)
+    parameters:
+    - id: player
+      type: Library.Traveler
+      description: ''
+    - id: decision
+      type: System.Boolean
+      description: ''
+    content.vb: Public MustOverride Sub PlayerArrival(player As Traveler, decision As Boolean = True)
+  overload: Library.Step.PlayerArrival*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Library.Step.PlayerDeparture(Library.Traveler)
+  commentId: M:Library.Step.PlayerDeparture(Library.Traveler)
+  id: PlayerDeparture(Library.Traveler)
+  parent: Library.Step
+  langs:
+  - csharp
+  - vb
+  name: PlayerDeparture(Traveler)
+  nameWithType: Step.PlayerDeparture(Traveler)
+  fullName: Library.Step.PlayerDeparture(Library.Traveler)
+  type: Method
+  source:
+    id: PlayerDeparture
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Step.cs
+    startLine: 71
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nEste método se encarga de remover a los viajeros de la lista de viajeros de este step cuando pasen al siguiente.\nAntes de removerlos se verifica que el viajero no sea null.\n"
+  example: []
+  syntax:
+    content: public void PlayerDeparture(Traveler player)
+    parameters:
+    - id: player
+      type: Library.Traveler
+      description: ''
+    content.vb: Public Sub PlayerDeparture(player As Traveler)
+  overload: Library.Step.PlayerDeparture*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Library
+  commentId: N:Library
+  name: Library
+  nameWithType: Library
+  fullName: Library
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.Step.#ctor*
+  commentId: Overload:Library.Step.#ctor
+  name: Step
+  nameWithType: Step.Step
+  fullName: Library.Step.Step
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Library.Step.PlayersRegistry*
+  commentId: Overload:Library.Step.PlayersRegistry
+  name: PlayersRegistry
+  nameWithType: Step.PlayersRegistry
+  fullName: Library.Step.PlayersRegistry
+- uid: Dictionary{Library.Traveler,System.Int32}
+  commentId: '!:Dictionary{Library.Traveler,System.Int32}'
+  definition: Dictionary`2
+  name: Dictionary<Traveler, Int32>
+  nameWithType: Dictionary<Traveler, Int32>
+  fullName: Dictionary<Library.Traveler, System.Int32>
+  nameWithType.vb: Dictionary(Of Traveler, Int32)
+  fullName.vb: Dictionary(Of Library.Traveler, System.Int32)
+  name.vb: Dictionary(Of Traveler, Int32)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary`2
+  commentId: '!:Dictionary`2'
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Library.Step.NextStep*
+  commentId: Overload:Library.Step.NextStep
+  name: NextStep
+  nameWithType: Step.NextStep
+  fullName: Library.Step.NextStep
+- uid: Library.Step
+  commentId: T:Library.Step
+  parent: Library
+  name: Step
+  nameWithType: Step
+  fullName: Library.Step
+- uid: Library.Step.Name*
+  commentId: Overload:Library.Step.Name
+  name: Name
+  nameWithType: Step.Name
+  fullName: Library.Step.Name
+- uid: Library.Step.PlayersIn*
+  commentId: Overload:Library.Step.PlayersIn
+  name: PlayersIn
+  nameWithType: Step.PlayersIn
+  fullName: Library.Step.PlayersIn
+- uid: List{Library.Traveler}
+  commentId: '!:List{Library.Traveler}'
+  definition: List`1
+  name: List<Traveler>
+  nameWithType: List<Traveler>
+  fullName: List<Library.Traveler>
+  nameWithType.vb: List(Of Traveler)
+  fullName.vb: List(Of Library.Traveler)
+  name.vb: List(Of Traveler)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Library.Step.RegisterPlayer*
+  commentId: Overload:Library.Step.RegisterPlayer
+  name: RegisterPlayer
+  nameWithType: Step.RegisterPlayer
+  fullName: Library.Step.RegisterPlayer
+- uid: Library.Traveler
+  commentId: T:Library.Traveler
+  parent: Library
+  name: Traveler
+  nameWithType: Traveler
+  fullName: Library.Traveler
+- uid: Library.Step.PlayerArrival*
+  commentId: Overload:Library.Step.PlayerArrival
+  name: PlayerArrival
+  nameWithType: Step.PlayerArrival
+  fullName: Library.Step.PlayerArrival
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Library.Step.PlayerDeparture*
+  commentId: Overload:Library.Step.PlayerDeparture
+  name: PlayerDeparture
+  nameWithType: Step.PlayerDeparture
+  fullName: Library.Step.PlayerDeparture

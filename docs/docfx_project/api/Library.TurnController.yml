@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.TurnController
+  commentId: T:Library.TurnController
+  id: TurnController
+  parent: Library
+  children:
+  - Library.TurnController.#ctor(List{Library.Traveler})
+  - Library.TurnController.GetPlayerInTurn
+  - Library.TurnController.TurnToNextPlayer
+  langs:
+  - csharp
+  - vb
+  name: TurnController
+  nameWithType: TurnController
+  fullName: Library.TurnController
+  type: Class
+  source:
+    id: TurnController
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\TurnController.cs
+    startLine: 17
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: 'public class TurnController : object'
+    content.vb: >-
+      Public Class TurnController
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.TurnController.#ctor(List{Library.Traveler})
+  commentId: M:Library.TurnController.#ctor(List{Library.Traveler})
+  id: '#ctor(List{Library.Traveler})'
+  parent: Library.TurnController
+  langs:
+  - csharp
+  - vb
+  name: TurnController(List<Traveler>)
+  nameWithType: TurnController.TurnController(List<Traveler>)
+  fullName: Library.TurnController.TurnController(List<Library.Traveler>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\TurnController.cs
+    startLine: 32
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nEl constructor necesita recibir una lista de Travelers.\n"
+  example: []
+  syntax:
+    content: public TurnController(List<Traveler> travelers)
+    parameters:
+    - id: travelers
+      type: List{Library.Traveler}
+      description: ''
+    content.vb: Public Sub New(travelers As List(Of Traveler))
+  overload: Library.TurnController.#ctor*
+  nameWithType.vb: TurnController.TurnController(List(Of Traveler))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Library.TurnController.TurnController(List(Of Library.Traveler))
+  name.vb: TurnController(List(Of Traveler))
+- uid: Library.TurnController.TurnToNextPlayer
+  commentId: M:Library.TurnController.TurnToNextPlayer
+  id: TurnToNextPlayer
+  parent: Library.TurnController
+  langs:
+  - csharp
+  - vb
+  name: TurnToNextPlayer()
+  nameWithType: TurnController.TurnToNextPlayer()
+  fullName: Library.TurnController.TurnToNextPlayer()
+  type: Method
+  source:
+    id: TurnToNextPlayer
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\TurnController.cs
+    startLine: 45
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo que cambia el turno y devuelve de quien es el turno siguiente.\nToma el índice seteado a -1 y entra en la condición else. Una vez pasó esto se le va a sumar 1 devolviendo el jugador que tenga índice 0 en la lista.\nLa implementación se debe encargar de llamar a este método para controlar de quíen es el turno. \nSi no desea usar este método de turnos, puede no implementarlo y se podrá jugar y mover a los jugadores de todas formas.\n"
+  example: []
+  syntax:
+    content: public Traveler TurnToNextPlayer()
+    return:
+      type: Library.Traveler
+      description: ''
+    content.vb: Public Function TurnToNextPlayer As Traveler
+  overload: Library.TurnController.TurnToNextPlayer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.TurnController.GetPlayerInTurn
+  commentId: M:Library.TurnController.GetPlayerInTurn
+  id: GetPlayerInTurn
+  parent: Library.TurnController
+  langs:
+  - csharp
+  - vb
+  name: GetPlayerInTurn()
+  nameWithType: TurnController.GetPlayerInTurn()
+  fullName: Library.TurnController.GetPlayerInTurn()
+  type: Method
+  source:
+    id: GetPlayerInTurn
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\TurnController.cs
+    startLine: 64
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo que devuelve de quién es el turno sin cambiarlo\n"
+  example: []
+  syntax:
+    content: public Traveler GetPlayerInTurn()
+    return:
+      type: Library.Traveler
+      description: ''
+    content.vb: Public Function GetPlayerInTurn As Traveler
+  overload: Library.TurnController.GetPlayerInTurn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Library
+  commentId: N:Library
+  name: Library
+  nameWithType: Library
+  fullName: Library
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.TurnController.#ctor*
+  commentId: Overload:Library.TurnController.#ctor
+  name: TurnController
+  nameWithType: TurnController.TurnController
+  fullName: Library.TurnController.TurnController
+- uid: List{Library.Traveler}
+  commentId: '!:List{Library.Traveler}'
+  definition: List`1
+  name: List<Traveler>
+  nameWithType: List<Traveler>
+  fullName: List<Library.Traveler>
+  nameWithType.vb: List(Of Traveler)
+  fullName.vb: List(Of Library.Traveler)
+  name.vb: List(Of Traveler)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Library.TurnController.TurnToNextPlayer*
+  commentId: Overload:Library.TurnController.TurnToNextPlayer
+  name: TurnToNextPlayer
+  nameWithType: TurnController.TurnToNextPlayer
+  fullName: Library.TurnController.TurnToNextPlayer
+- uid: Library.Traveler
+  commentId: T:Library.Traveler
+  parent: Library
+  name: Traveler
+  nameWithType: Traveler
+  fullName: Library.Traveler
+- uid: Library.TurnController.GetPlayerInTurn*
+  commentId: Overload:Library.TurnController.GetPlayerInTurn
+  name: GetPlayerInTurn
+  nameWithType: TurnController.GetPlayerInTurn
+  fullName: Library.TurnController.GetPlayerInTurn

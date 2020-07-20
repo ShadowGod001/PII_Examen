@@ -1,0 +1,402 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.Ocean
+  commentId: T:Library.Ocean
+  id: Ocean
+  parent: Library
+  children:
+  - Library.Ocean.#ctor(System.Int32,Library.Step,System.String)
+  - Library.Ocean.Host(Library.Traveler)
+  langs:
+  - csharp
+  - vb
+  name: Ocean
+  nameWithType: Ocean
+  fullName: Library.Ocean
+  type: Class
+  source:
+    id: Ocean
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Ocean.cs
+    startLine: 15
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: 'public class Ocean : Landscape'
+    content.vb: >-
+      Public Class Ocean
+
+          Inherits Landscape
+  inheritance:
+  - System.Object
+  - Library.Step
+  - Station
+  - Library.Landscape
+  inheritedMembers:
+  - Station.PeopleLimit
+  - Station.RegisterPlayer(Library.Traveler)
+  - Station.PlayerArrival(Library.Traveler,System.Boolean)
+  - Station.IsRoomAvailable
+  - Library.Step.PlayersRegistry
+  - Library.Step.NextStep
+  - Library.Step.Name
+  - Library.Step.PlayersIn
+  - Library.Step.PlayerDeparture(Library.Traveler)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.Ocean.#ctor(System.Int32,Library.Step,System.String)
+  commentId: M:Library.Ocean.#ctor(System.Int32,Library.Step,System.String)
+  id: '#ctor(System.Int32,Library.Step,System.String)'
+  parent: Library.Ocean
+  langs:
+  - csharp
+  - vb
+  name: Ocean(Int32, Step, String)
+  nameWithType: Ocean.Ocean(Int32, Step, String)
+  fullName: Library.Ocean.Ocean(System.Int32, Library.Step, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Ocean.cs
+    startLine: 24
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nEl constructor debe recibir como parámetro un int que represente la cantidad máxima de viajeros que van a poder estar en la experiencia\nal mismo tiempo.\n"
+  example: []
+  syntax:
+    content: public Ocean(int peopleLimit, Step nextStep, string name = "Ocean")
+    parameters:
+    - id: peopleLimit
+      type: System.Int32
+      description: ''
+    - id: nextStep
+      type: Library.Step
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(peopleLimit As Integer, nextStep As  Step, name As String = "Ocean")
+  overload: Library.Ocean.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Ocean.Host(Library.Traveler)
+  commentId: M:Library.Ocean.Host(Library.Traveler)
+  id: Host(Library.Traveler)
+  parent: Library.Ocean
+  langs:
+  - csharp
+  - vb
+  name: Host(Traveler)
+  nameWithType: Ocean.Host(Traveler)
+  fullName: Library.Ocean.Host(Library.Traveler)
+  type: Method
+  source:
+    id: Host
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Ocean.cs
+    startLine: 35
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nEn el método Host en este caso se verifica que el traveler que se recibió por parámetro no sea null. \nLuego se le pasa el objeto tipo Traveler como argumento al método RegisterPlayer de la superclase Landscape.\nLuego se calcula cuantos puntos se le van a asignar al viajero dependiendo de la cantidad de veces que haya pasado por la experiencia.\n"
+  example: []
+  syntax:
+    content: public override void Host(Traveler player)
+    parameters:
+    - id: player
+      type: Library.Traveler
+      description: ''
+    content.vb: Public Overrides Sub Host(player As Traveler)
+  overridden: Station.Host(Library.Traveler)
+  overload: Library.Ocean.Host*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Library
+  commentId: N:Library
+  name: Library
+  nameWithType: Library
+  fullName: Library
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Library.Step
+  commentId: T:Library.Step
+  parent: Library
+  name: Step
+  nameWithType: Step
+  fullName: Library.Step
+- uid: Station
+  commentId: T:Station
+  name: Station
+  nameWithType: Station
+  fullName: Station
+- uid: Library.Landscape
+  commentId: T:Library.Landscape
+  parent: Library
+  name: Landscape
+  nameWithType: Landscape
+  fullName: Library.Landscape
+- uid: Station.PeopleLimit
+  commentId: P:Station.PeopleLimit
+  parent: Station
+  name: PeopleLimit
+  nameWithType: Station.PeopleLimit
+  fullName: Station.PeopleLimit
+- uid: Station.RegisterPlayer(Library.Traveler)
+  commentId: M:Station.RegisterPlayer(Library.Traveler)
+  parent: Station
+  name: RegisterPlayer(Traveler)
+  nameWithType: Station.RegisterPlayer(Traveler)
+  fullName: Station.RegisterPlayer(Library.Traveler)
+  spec.csharp:
+  - uid: Station.RegisterPlayer(Library.Traveler)
+    name: RegisterPlayer
+    nameWithType: Station.RegisterPlayer
+    fullName: Station.RegisterPlayer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Station.RegisterPlayer(Library.Traveler)
+    name: RegisterPlayer
+    nameWithType: Station.RegisterPlayer
+    fullName: Station.RegisterPlayer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Station.PlayerArrival(Library.Traveler,System.Boolean)
+  commentId: M:Station.PlayerArrival(Library.Traveler,System.Boolean)
+  parent: Station
+  isExternal: true
+  name: PlayerArrival(Traveler, Boolean)
+  nameWithType: Station.PlayerArrival(Traveler, Boolean)
+  fullName: Station.PlayerArrival(Library.Traveler, System.Boolean)
+  spec.csharp:
+  - uid: Station.PlayerArrival(Library.Traveler,System.Boolean)
+    name: PlayerArrival
+    nameWithType: Station.PlayerArrival
+    fullName: Station.PlayerArrival
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Station.PlayerArrival(Library.Traveler,System.Boolean)
+    name: PlayerArrival
+    nameWithType: Station.PlayerArrival
+    fullName: Station.PlayerArrival
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Station.IsRoomAvailable
+  commentId: M:Station.IsRoomAvailable
+  parent: Station
+  name: IsRoomAvailable()
+  nameWithType: Station.IsRoomAvailable()
+  fullName: Station.IsRoomAvailable()
+  spec.csharp:
+  - uid: Station.IsRoomAvailable
+    name: IsRoomAvailable
+    nameWithType: Station.IsRoomAvailable
+    fullName: Station.IsRoomAvailable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Station.IsRoomAvailable
+    name: IsRoomAvailable
+    nameWithType: Station.IsRoomAvailable
+    fullName: Station.IsRoomAvailable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Library.Step.PlayersRegistry
+  commentId: P:Library.Step.PlayersRegistry
+  parent: Library.Step
+  name: PlayersRegistry
+  nameWithType: Step.PlayersRegistry
+  fullName: Library.Step.PlayersRegistry
+- uid: Library.Step.NextStep
+  commentId: P:Library.Step.NextStep
+  parent: Library.Step
+  name: NextStep
+  nameWithType: Step.NextStep
+  fullName: Library.Step.NextStep
+- uid: Library.Step.Name
+  commentId: P:Library.Step.Name
+  parent: Library.Step
+  name: Name
+  nameWithType: Step.Name
+  fullName: Library.Step.Name
+- uid: Library.Step.PlayersIn
+  commentId: P:Library.Step.PlayersIn
+  parent: Library.Step
+  name: PlayersIn
+  nameWithType: Step.PlayersIn
+  fullName: Library.Step.PlayersIn
+- uid: Library.Step.PlayerDeparture(Library.Traveler)
+  commentId: M:Library.Step.PlayerDeparture(Library.Traveler)
+  parent: Library.Step
+  name: PlayerDeparture(Traveler)
+  nameWithType: Step.PlayerDeparture(Traveler)
+  fullName: Library.Step.PlayerDeparture(Library.Traveler)
+  spec.csharp:
+  - uid: Library.Step.PlayerDeparture(Library.Traveler)
+    name: PlayerDeparture
+    nameWithType: Step.PlayerDeparture
+    fullName: Library.Step.PlayerDeparture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Library.Step.PlayerDeparture(Library.Traveler)
+    name: PlayerDeparture
+    nameWithType: Step.PlayerDeparture
+    fullName: Library.Step.PlayerDeparture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.Ocean.#ctor*
+  commentId: Overload:Library.Ocean.#ctor
+  name: Ocean
+  nameWithType: Ocean.Ocean
+  fullName: Library.Ocean.Ocean
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Station.Host(Library.Traveler)
+  commentId: M:Station.Host(Library.Traveler)
+  parent: Station
+  name: Host(Traveler)
+  nameWithType: Station.Host(Traveler)
+  fullName: Station.Host(Library.Traveler)
+  spec.csharp:
+  - uid: Station.Host(Library.Traveler)
+    name: Host
+    nameWithType: Station.Host
+    fullName: Station.Host
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Station.Host(Library.Traveler)
+    name: Host
+    nameWithType: Station.Host
+    fullName: Station.Host
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Library.Ocean.Host*
+  commentId: Overload:Library.Ocean.Host
+  name: Host
+  nameWithType: Ocean.Host
+  fullName: Library.Ocean.Host
+- uid: Library.Traveler
+  commentId: T:Library.Traveler
+  parent: Library
+  name: Traveler
+  nameWithType: Traveler
+  fullName: Library.Traveler

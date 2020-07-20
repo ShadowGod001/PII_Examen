@@ -1,0 +1,642 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.Test.TravelerTests
+  commentId: T:Library.Test.TravelerTests
+  id: TravelerTests
+  parent: Library.Test
+  children:
+  - Library.Test.TravelerTests.AddCoins_Coins_UpdatedCoins
+  - Library.Test.TravelerTests.AddScore_Score_UpdatedScore
+  - Library.Test.TravelerTests.RemoveCoins_Coins_NeutralCoins
+  - Library.Test.TravelerTests.RemoveCoins_Coins_UpdatedCoins
+  - Library.Test.TravelerTests.RemoveScore_Score_NeutralScore
+  - Library.Test.TravelerTests.RemoveScore_Score_UpdatedScore
+  - Library.Test.TravelerTests.Setup
+  - Library.Test.TravelerTests.Traveler_CoinsOverflow
+  - Library.Test.TravelerTests.Traveler_ScoreOverflow
+  langs:
+  - csharp
+  - vb
+  name: TravelerTests
+  nameWithType: TravelerTests
+  fullName: Library.Test.TravelerTests
+  type: Class
+  source:
+    id: TravelerTests
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\TravelerTest.cs
+    startLine: 6
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  syntax:
+    content: public class TravelerTests
+    content.vb: Public Class TravelerTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.Test.TravelerTests.Setup
+  commentId: M:Library.Test.TravelerTests.Setup
+  id: Setup
+  parent: Library.Test.TravelerTests
+  langs:
+  - csharp
+  - vb
+  name: Setup()
+  nameWithType: TravelerTests.Setup()
+  fullName: Library.Test.TravelerTests.Setup()
+  type: Method
+  source:
+    id: Setup
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\TravelerTest.cs
+    startLine: 8
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  syntax:
+    content: public void Setup()
+    content.vb: Public Sub Setup
+  overload: Library.Test.TravelerTests.Setup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.TravelerTests.Traveler_ScoreOverflow
+  commentId: M:Library.Test.TravelerTests.Traveler_ScoreOverflow
+  id: Traveler_ScoreOverflow
+  parent: Library.Test.TravelerTests
+  langs:
+  - csharp
+  - vb
+  name: Traveler_ScoreOverflow()
+  nameWithType: TravelerTests.Traveler_ScoreOverflow()
+  fullName: Library.Test.TravelerTests.Traveler_ScoreOverflow()
+  type: Method
+  source:
+    id: Traveler_ScoreOverflow
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\TravelerTest.cs
+    startLine: 18
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest que evalúa el correcto funcionamiento de la condición dentro del método AddScore.\nControla que el Score no pase del máximo valor permitido.\n"
+  example: []
+  syntax:
+    content: public void Traveler_ScoreOverflow()
+    content.vb: Public Sub Traveler_ScoreOverflow
+  overload: Library.Test.TravelerTests.Traveler_ScoreOverflow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.TravelerTests.Traveler_CoinsOverflow
+  commentId: M:Library.Test.TravelerTests.Traveler_CoinsOverflow
+  id: Traveler_CoinsOverflow
+  parent: Library.Test.TravelerTests
+  langs:
+  - csharp
+  - vb
+  name: Traveler_CoinsOverflow()
+  nameWithType: TravelerTests.Traveler_CoinsOverflow()
+  fullName: Library.Test.TravelerTests.Traveler_CoinsOverflow()
+  type: Method
+  source:
+    id: Traveler_CoinsOverflow
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\TravelerTest.cs
+    startLine: 33
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest que evalúa el correcto funcionamiento de la condición dentro del método AddCoins.\nTest que controla que la cantidad de Coins no pase del máximo valor permitido.\n"
+  example: []
+  syntax:
+    content: public void Traveler_CoinsOverflow()
+    content.vb: Public Sub Traveler_CoinsOverflow
+  overload: Library.Test.TravelerTests.Traveler_CoinsOverflow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.TravelerTests.AddScore_Score_UpdatedScore
+  commentId: M:Library.Test.TravelerTests.AddScore_Score_UpdatedScore
+  id: AddScore_Score_UpdatedScore
+  parent: Library.Test.TravelerTests
+  langs:
+  - csharp
+  - vb
+  name: AddScore_Score_UpdatedScore()
+  nameWithType: TravelerTests.AddScore_Score_UpdatedScore()
+  fullName: Library.Test.TravelerTests.AddScore_Score_UpdatedScore()
+  type: Method
+  source:
+    id: AddScore_Score_UpdatedScore
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\TravelerTest.cs
+    startLine: 48
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest que controla el correcto funcionamiento del método AddScore. \nEn este caso que se añada Score correctamente.\n"
+  example: []
+  syntax:
+    content: public void AddScore_Score_UpdatedScore()
+    content.vb: Public Sub AddScore_Score_UpdatedScore
+  overload: Library.Test.TravelerTests.AddScore_Score_UpdatedScore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.TravelerTests.AddCoins_Coins_UpdatedCoins
+  commentId: M:Library.Test.TravelerTests.AddCoins_Coins_UpdatedCoins
+  id: AddCoins_Coins_UpdatedCoins
+  parent: Library.Test.TravelerTests
+  langs:
+  - csharp
+  - vb
+  name: AddCoins_Coins_UpdatedCoins()
+  nameWithType: TravelerTests.AddCoins_Coins_UpdatedCoins()
+  fullName: Library.Test.TravelerTests.AddCoins_Coins_UpdatedCoins()
+  type: Method
+  source:
+    id: AddCoins_Coins_UpdatedCoins
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\TravelerTest.cs
+    startLine: 64
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest que controla el correcto funcionamiento del método AddCoins. \nEn este caso que se añadan Coins correctamente.\n"
+  example: []
+  syntax:
+    content: public void AddCoins_Coins_UpdatedCoins()
+    content.vb: Public Sub AddCoins_Coins_UpdatedCoins
+  overload: Library.Test.TravelerTests.AddCoins_Coins_UpdatedCoins*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.TravelerTests.RemoveScore_Score_UpdatedScore
+  commentId: M:Library.Test.TravelerTests.RemoveScore_Score_UpdatedScore
+  id: RemoveScore_Score_UpdatedScore
+  parent: Library.Test.TravelerTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveScore_Score_UpdatedScore()
+  nameWithType: TravelerTests.RemoveScore_Score_UpdatedScore()
+  fullName: Library.Test.TravelerTests.RemoveScore_Score_UpdatedScore()
+  type: Method
+  source:
+    id: RemoveScore_Score_UpdatedScore
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\TravelerTest.cs
+    startLine: 79
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest que controla el correcto funcionamiento del método RemoveScore. \nEn este caso que se remueva Score correctamente.\n"
+  example: []
+  syntax:
+    content: public void RemoveScore_Score_UpdatedScore()
+    content.vb: Public Sub RemoveScore_Score_UpdatedScore
+  overload: Library.Test.TravelerTests.RemoveScore_Score_UpdatedScore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.TravelerTests.RemoveCoins_Coins_UpdatedCoins
+  commentId: M:Library.Test.TravelerTests.RemoveCoins_Coins_UpdatedCoins
+  id: RemoveCoins_Coins_UpdatedCoins
+  parent: Library.Test.TravelerTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveCoins_Coins_UpdatedCoins()
+  nameWithType: TravelerTests.RemoveCoins_Coins_UpdatedCoins()
+  fullName: Library.Test.TravelerTests.RemoveCoins_Coins_UpdatedCoins()
+  type: Method
+  source:
+    id: RemoveCoins_Coins_UpdatedCoins
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\TravelerTest.cs
+    startLine: 96
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest que controla el correcto funcionamiento del método RemoveCoins. \nEn este caso que se remuevan Coins correctamente.\n"
+  example: []
+  syntax:
+    content: public void RemoveCoins_Coins_UpdatedCoins()
+    content.vb: Public Sub RemoveCoins_Coins_UpdatedCoins
+  overload: Library.Test.TravelerTests.RemoveCoins_Coins_UpdatedCoins*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.TravelerTests.RemoveScore_Score_NeutralScore
+  commentId: M:Library.Test.TravelerTests.RemoveScore_Score_NeutralScore
+  id: RemoveScore_Score_NeutralScore
+  parent: Library.Test.TravelerTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveScore_Score_NeutralScore()
+  nameWithType: TravelerTests.RemoveScore_Score_NeutralScore()
+  fullName: Library.Test.TravelerTests.RemoveScore_Score_NeutralScore()
+  type: Method
+  source:
+    id: RemoveScore_Score_NeutralScore
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\TravelerTest.cs
+    startLine: 113
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest que controla el correcto funcionamiento del método RemoveScore. \nEn este caso controla que no pueda haber Score negativa.\n"
+  example: []
+  syntax:
+    content: public void RemoveScore_Score_NeutralScore()
+    content.vb: Public Sub RemoveScore_Score_NeutralScore
+  overload: Library.Test.TravelerTests.RemoveScore_Score_NeutralScore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Test.TravelerTests.RemoveCoins_Coins_NeutralCoins
+  commentId: M:Library.Test.TravelerTests.RemoveCoins_Coins_NeutralCoins
+  id: RemoveCoins_Coins_NeutralCoins
+  parent: Library.Test.TravelerTests
+  langs:
+  - csharp
+  - vb
+  name: RemoveCoins_Coins_NeutralCoins()
+  nameWithType: TravelerTests.RemoveCoins_Coins_NeutralCoins()
+  fullName: Library.Test.TravelerTests.RemoveCoins_Coins_NeutralCoins()
+  type: Method
+  source:
+    id: RemoveCoins_Coins_NeutralCoins
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Test\Library.Test\TravelerTest.cs
+    startLine: 128
+  assemblies:
+  - Library.Test
+  namespace: Library.Test
+  summary: "\nTest que controla el correcto funcionamiento del método RemoveCoins. \nEn este caso que no pueda haber cantidad de Coins negativa.\n"
+  example: []
+  syntax:
+    content: public void RemoveCoins_Coins_NeutralCoins()
+    content.vb: Public Sub RemoveCoins_Coins_NeutralCoins
+  overload: Library.Test.TravelerTests.RemoveCoins_Coins_NeutralCoins*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Library.Test
+  commentId: N:Library.Test
+  name: Library.Test
+  nameWithType: Library.Test
+  fullName: Library.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.Test.TravelerTests.Setup*
+  commentId: Overload:Library.Test.TravelerTests.Setup
+  name: Setup
+  nameWithType: TravelerTests.Setup
+  fullName: Library.Test.TravelerTests.Setup
+- uid: Library.Test.TravelerTests.Traveler_ScoreOverflow*
+  commentId: Overload:Library.Test.TravelerTests.Traveler_ScoreOverflow
+  name: Traveler_ScoreOverflow
+  nameWithType: TravelerTests.Traveler_ScoreOverflow
+  fullName: Library.Test.TravelerTests.Traveler_ScoreOverflow
+- uid: Library.Test.TravelerTests.Traveler_CoinsOverflow*
+  commentId: Overload:Library.Test.TravelerTests.Traveler_CoinsOverflow
+  name: Traveler_CoinsOverflow
+  nameWithType: TravelerTests.Traveler_CoinsOverflow
+  fullName: Library.Test.TravelerTests.Traveler_CoinsOverflow
+- uid: Library.Test.TravelerTests.AddScore_Score_UpdatedScore*
+  commentId: Overload:Library.Test.TravelerTests.AddScore_Score_UpdatedScore
+  name: AddScore_Score_UpdatedScore
+  nameWithType: TravelerTests.AddScore_Score_UpdatedScore
+  fullName: Library.Test.TravelerTests.AddScore_Score_UpdatedScore
+- uid: Library.Test.TravelerTests.AddCoins_Coins_UpdatedCoins*
+  commentId: Overload:Library.Test.TravelerTests.AddCoins_Coins_UpdatedCoins
+  name: AddCoins_Coins_UpdatedCoins
+  nameWithType: TravelerTests.AddCoins_Coins_UpdatedCoins
+  fullName: Library.Test.TravelerTests.AddCoins_Coins_UpdatedCoins
+- uid: Library.Test.TravelerTests.RemoveScore_Score_UpdatedScore*
+  commentId: Overload:Library.Test.TravelerTests.RemoveScore_Score_UpdatedScore
+  name: RemoveScore_Score_UpdatedScore
+  nameWithType: TravelerTests.RemoveScore_Score_UpdatedScore
+  fullName: Library.Test.TravelerTests.RemoveScore_Score_UpdatedScore
+- uid: Library.Test.TravelerTests.RemoveCoins_Coins_UpdatedCoins*
+  commentId: Overload:Library.Test.TravelerTests.RemoveCoins_Coins_UpdatedCoins
+  name: RemoveCoins_Coins_UpdatedCoins
+  nameWithType: TravelerTests.RemoveCoins_Coins_UpdatedCoins
+  fullName: Library.Test.TravelerTests.RemoveCoins_Coins_UpdatedCoins
+- uid: Library.Test.TravelerTests.RemoveScore_Score_NeutralScore*
+  commentId: Overload:Library.Test.TravelerTests.RemoveScore_Score_NeutralScore
+  name: RemoveScore_Score_NeutralScore
+  nameWithType: TravelerTests.RemoveScore_Score_NeutralScore
+  fullName: Library.Test.TravelerTests.RemoveScore_Score_NeutralScore
+- uid: Library.Test.TravelerTests.RemoveCoins_Coins_NeutralCoins*
+  commentId: Overload:Library.Test.TravelerTests.RemoveCoins_Coins_NeutralCoins
+  name: RemoveCoins_Coins_NeutralCoins
+  nameWithType: TravelerTests.RemoveCoins_Coins_NeutralCoins
+  fullName: Library.Test.TravelerTests.RemoveCoins_Coins_NeutralCoins

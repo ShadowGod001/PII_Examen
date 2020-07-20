@@ -1,0 +1,358 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.EndStep
+  commentId: T:Library.EndStep
+  id: EndStep
+  parent: Library
+  children:
+  - Library.EndStep.#ctor(System.String)
+  - Library.EndStep.PlayerArrival(Library.Traveler,System.Boolean)
+  - Library.EndStep.RegisterPlayer(Library.Traveler)
+  langs:
+  - csharp
+  - vb
+  name: EndStep
+  nameWithType: EndStep
+  fullName: Library.EndStep
+  type: Class
+  source:
+    id: EndStep
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\EndStep.cs
+    startLine: 18
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: 'public class EndStep : Step'
+    content.vb: >-
+      Public Class EndStep
+
+          Inherits
+
+
+
+           Step
+  inheritance:
+  - System.Object
+  - Library.Step
+  inheritedMembers:
+  - Library.Step.PlayersRegistry
+  - Library.Step.NextStep
+  - Library.Step.Name
+  - Library.Step.PlayersIn
+  - Library.Step.PlayerDeparture(Library.Traveler)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.EndStep.PlayerArrival(Library.Traveler,System.Boolean)
+  commentId: M:Library.EndStep.PlayerArrival(Library.Traveler,System.Boolean)
+  id: PlayerArrival(Library.Traveler,System.Boolean)
+  parent: Library.EndStep
+  langs:
+  - csharp
+  - vb
+  name: PlayerArrival(Traveler, Boolean)
+  nameWithType: EndStep.PlayerArrival(Traveler, Boolean)
+  fullName: Library.EndStep.PlayerArrival(Library.Traveler, System.Boolean)
+  type: Method
+  source:
+    id: PlayerArrival
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\EndStep.cs
+    startLine: 25
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo que recibe una condición y un objeto tipo Traveler el cuál valida que no sea null y lo agrega a la lista de PlayersIn.\n"
+  example: []
+  syntax:
+    content: public override void PlayerArrival(Traveler player, bool decision)
+    parameters:
+    - id: player
+      type: Library.Traveler
+      description: ''
+    - id: decision
+      type: System.Boolean
+      description: ''
+    content.vb: Public Overrides Sub PlayerArrival(player As Traveler, decision As Boolean)
+  overridden: Library.Step.PlayerArrival(Library.Traveler,System.Boolean)
+  overload: Library.EndStep.PlayerArrival*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Library.EndStep.RegisterPlayer(Library.Traveler)
+  commentId: M:Library.EndStep.RegisterPlayer(Library.Traveler)
+  id: RegisterPlayer(Library.Traveler)
+  parent: Library.EndStep
+  langs:
+  - csharp
+  - vb
+  name: RegisterPlayer(Traveler)
+  nameWithType: EndStep.RegisterPlayer(Traveler)
+  fullName: Library.EndStep.RegisterPlayer(Library.Traveler)
+  type: Method
+  source:
+    id: RegisterPlayer
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\EndStep.cs
+    startLine: 43
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo que recibe un objeto tipo Traveler por parámetro, verifica que no sea null y lo agrega al diccionario PlayersRegistry si no está, \ny si está aumenta en 1 su valor.\n"
+  example: []
+  syntax:
+    content: public override void RegisterPlayer(Traveler player)
+    parameters:
+    - id: player
+      type: Library.Traveler
+      description: ''
+    content.vb: Public Overrides Sub RegisterPlayer(player As Traveler)
+  overridden: Library.Step.RegisterPlayer(Library.Traveler)
+  overload: Library.EndStep.RegisterPlayer*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Library.EndStep.#ctor(System.String)
+  commentId: M:Library.EndStep.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Library.EndStep
+  langs:
+  - csharp
+  - vb
+  name: EndStep(String)
+  nameWithType: EndStep.EndStep(String)
+  fullName: Library.EndStep.EndStep(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\EndStep.cs
+    startLine: 64
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nEl constructor de la clase instancia un NextStep null para indicar que este es el último step y una nueva instancia \nde la lista PlayersIn donde se guardan los travelers.\n"
+  example: []
+  syntax:
+    content: public EndStep(string name = "EndStep")
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String = "EndStep")
+  overload: Library.EndStep.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Library
+  commentId: N:Library
+  name: Library
+  nameWithType: Library
+  fullName: Library
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Library.Step
+  commentId: T:Library.Step
+  parent: Library
+  name: Step
+  nameWithType: Step
+  fullName: Library.Step
+- uid: Library.Step.PlayersRegistry
+  commentId: P:Library.Step.PlayersRegistry
+  parent: Library.Step
+  name: PlayersRegistry
+  nameWithType: Step.PlayersRegistry
+  fullName: Library.Step.PlayersRegistry
+- uid: Library.Step.NextStep
+  commentId: P:Library.Step.NextStep
+  parent: Library.Step
+  name: NextStep
+  nameWithType: Step.NextStep
+  fullName: Library.Step.NextStep
+- uid: Library.Step.Name
+  commentId: P:Library.Step.Name
+  parent: Library.Step
+  name: Name
+  nameWithType: Step.Name
+  fullName: Library.Step.Name
+- uid: Library.Step.PlayersIn
+  commentId: P:Library.Step.PlayersIn
+  parent: Library.Step
+  name: PlayersIn
+  nameWithType: Step.PlayersIn
+  fullName: Library.Step.PlayersIn
+- uid: Library.Step.PlayerDeparture(Library.Traveler)
+  commentId: M:Library.Step.PlayerDeparture(Library.Traveler)
+  parent: Library.Step
+  name: PlayerDeparture(Traveler)
+  nameWithType: Step.PlayerDeparture(Traveler)
+  fullName: Library.Step.PlayerDeparture(Library.Traveler)
+  spec.csharp:
+  - uid: Library.Step.PlayerDeparture(Library.Traveler)
+    name: PlayerDeparture
+    nameWithType: Step.PlayerDeparture
+    fullName: Library.Step.PlayerDeparture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Library.Step.PlayerDeparture(Library.Traveler)
+    name: PlayerDeparture
+    nameWithType: Step.PlayerDeparture
+    fullName: Library.Step.PlayerDeparture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.Step.PlayerArrival(Library.Traveler,System.Boolean)
+  commentId: M:Library.Step.PlayerArrival(Library.Traveler,System.Boolean)
+  parent: Library.Step
+  isExternal: true
+  name: PlayerArrival(Traveler, Boolean)
+  nameWithType: Step.PlayerArrival(Traveler, Boolean)
+  fullName: Library.Step.PlayerArrival(Library.Traveler, System.Boolean)
+  spec.csharp:
+  - uid: Library.Step.PlayerArrival(Library.Traveler,System.Boolean)
+    name: PlayerArrival
+    nameWithType: Step.PlayerArrival
+    fullName: Library.Step.PlayerArrival
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Library.Step.PlayerArrival(Library.Traveler,System.Boolean)
+    name: PlayerArrival
+    nameWithType: Step.PlayerArrival
+    fullName: Library.Step.PlayerArrival
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Library.EndStep.PlayerArrival*
+  commentId: Overload:Library.EndStep.PlayerArrival
+  name: PlayerArrival
+  nameWithType: EndStep.PlayerArrival
+  fullName: Library.EndStep.PlayerArrival
+- uid: Library.Traveler
+  commentId: T:Library.Traveler
+  parent: Library
+  name: Traveler
+  nameWithType: Traveler
+  fullName: Library.Traveler
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Library.Step.RegisterPlayer(Library.Traveler)
+  commentId: M:Library.Step.RegisterPlayer(Library.Traveler)
+  parent: Library.Step
+  name: RegisterPlayer(Traveler)
+  nameWithType: Step.RegisterPlayer(Traveler)
+  fullName: Library.Step.RegisterPlayer(Library.Traveler)
+  spec.csharp:
+  - uid: Library.Step.RegisterPlayer(Library.Traveler)
+    name: RegisterPlayer
+    nameWithType: Step.RegisterPlayer
+    fullName: Library.Step.RegisterPlayer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Library.Step.RegisterPlayer(Library.Traveler)
+    name: RegisterPlayer
+    nameWithType: Step.RegisterPlayer
+    fullName: Library.Step.RegisterPlayer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Library.EndStep.RegisterPlayer*
+  commentId: Overload:Library.EndStep.RegisterPlayer
+  name: RegisterPlayer
+  nameWithType: EndStep.RegisterPlayer
+  fullName: Library.EndStep.RegisterPlayer
+- uid: Library.EndStep.#ctor*
+  commentId: Overload:Library.EndStep.#ctor
+  name: EndStep
+  nameWithType: EndStep.EndStep
+  fullName: Library.EndStep.EndStep
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

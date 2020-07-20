@@ -1,0 +1,387 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.GameData
+  commentId: T:Library.GameData
+  id: GameData
+  parent: Library
+  children:
+  - Library.GameData.#ctor(List{Library.Traveler},Library.Board)
+  - Library.GameData.GetEndStep
+  - Library.GameData.GetFirstStep
+  - Library.GameData.GetListOfSteps
+  - Library.GameData.ListPlayers
+  langs:
+  - csharp
+  - vb
+  name: GameData
+  nameWithType: GameData
+  fullName: Library.GameData
+  type: Class
+  source:
+    id: GameData
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\GameData.cs
+    startLine: 21
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: 'public class GameData : object'
+    content.vb: >-
+      Public Class GameData
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.GameData.ListPlayers
+  commentId: P:Library.GameData.ListPlayers
+  id: ListPlayers
+  parent: Library.GameData
+  langs:
+  - csharp
+  - vb
+  name: ListPlayers
+  nameWithType: GameData.ListPlayers
+  fullName: Library.GameData.ListPlayers
+  type: Property
+  source:
+    id: ListPlayers
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\GameData.cs
+    startLine: 27
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nLa lista ListPlayers guarda la lista de objetos tipo Traveler que van a jugar.\n"
+  example: []
+  syntax:
+    content: public List<Traveler> ListPlayers { get; }
+    parameters: []
+    return:
+      type: List{Library.Traveler}
+      description: ''
+    content.vb: Public ReadOnly Property ListPlayers As List(Of Traveler)
+  overload: Library.GameData.ListPlayers*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Library.GameData.GetListOfSteps
+  commentId: M:Library.GameData.GetListOfSteps
+  id: GetListOfSteps
+  parent: Library.GameData
+  langs:
+  - csharp
+  - vb
+  name: GetListOfSteps()
+  nameWithType: GameData.GetListOfSteps()
+  fullName: Library.GameData.GetListOfSteps()
+  type: Method
+  source:
+    id: GetListOfSteps
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\GameData.cs
+    startLine: 39
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nEste método devuelve la lista de objetos tipo Step guardada en GameBoard.\n"
+  example: []
+  syntax:
+    content: public List<Step> GetListOfSteps()
+    return:
+      type: List{Library.Step}
+      description: ''
+    content.vb: Public Function GetListOfSteps As List(Of  Step)
+  overload: Library.GameData.GetListOfSteps*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.GameData.GetFirstStep
+  commentId: M:Library.GameData.GetFirstStep
+  id: GetFirstStep
+  parent: Library.GameData
+  langs:
+  - csharp
+  - vb
+  name: GetFirstStep()
+  nameWithType: GameData.GetFirstStep()
+  fullName: Library.GameData.GetFirstStep()
+  type: Method
+  source:
+    id: GetFirstStep
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\GameData.cs
+    startLine: 48
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nEste método devuelve el step FirstStep.\n"
+  example: []
+  syntax:
+    content: public FirstStep GetFirstStep()
+    return:
+      type: Library.FirstStep
+      description: ''
+    content.vb: Public Function GetFirstStep As FirstStep
+  overload: Library.GameData.GetFirstStep*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.GameData.GetEndStep
+  commentId: M:Library.GameData.GetEndStep
+  id: GetEndStep
+  parent: Library.GameData
+  langs:
+  - csharp
+  - vb
+  name: GetEndStep()
+  nameWithType: GameData.GetEndStep()
+  fullName: Library.GameData.GetEndStep()
+  type: Method
+  source:
+    id: GetEndStep
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\GameData.cs
+    startLine: 57
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nEste método devuelve el step EndStep.\n"
+  example: []
+  syntax:
+    content: public EndStep GetEndStep()
+    return:
+      type: Library.EndStep
+      description: ''
+    content.vb: Public Function GetEndStep As
+  overload: Library.GameData.GetEndStep*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.GameData.#ctor(List{Library.Traveler},Library.Board)
+  commentId: M:Library.GameData.#ctor(List{Library.Traveler},Library.Board)
+  id: '#ctor(List{Library.Traveler},Library.Board)'
+  parent: Library.GameData
+  langs:
+  - csharp
+  - vb
+  name: GameData(List<Traveler>, Board)
+  nameWithType: GameData.GameData(List<Traveler>, Board)
+  fullName: Library.GameData.GameData(List<Library.Traveler>, Library.Board)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\GameData.cs
+    startLine: 68
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nEl constructor de la clase recibe por parámetro una lista de objetos tipo Traveler que se envía como argumento al\nmétodo CheckListOfTravelers y un objeto tipo Board a los que luego asigna a los objetos ListPlayers y GameBoard.\n"
+  example: []
+  syntax:
+    content: public GameData(List<Traveler> players, Board board)
+    parameters:
+    - id: players
+      type: List{Library.Traveler}
+      description: ''
+    - id: board
+      type: Library.Board
+      description: ''
+    content.vb: Public Sub New(players As List(Of Traveler), board As Board)
+  overload: Library.GameData.#ctor*
+  nameWithType.vb: GameData.GameData(List(Of Traveler), Board)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Library.GameData.GameData(List(Of Library.Traveler), Library.Board)
+  name.vb: GameData(List(Of Traveler), Board)
+references:
+- uid: Library
+  commentId: N:Library
+  name: Library
+  nameWithType: Library
+  fullName: Library
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.GameData.ListPlayers*
+  commentId: Overload:Library.GameData.ListPlayers
+  name: ListPlayers
+  nameWithType: GameData.ListPlayers
+  fullName: Library.GameData.ListPlayers
+- uid: List{Library.Traveler}
+  commentId: '!:List{Library.Traveler}'
+  definition: List`1
+  name: List<Traveler>
+  nameWithType: List<Traveler>
+  fullName: List<Library.Traveler>
+  nameWithType.vb: List(Of Traveler)
+  fullName.vb: List(Of Library.Traveler)
+  name.vb: List(Of Traveler)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Library.Traveler
+    name: Traveler
+    nameWithType: Traveler
+    fullName: Library.Traveler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Library.GameData.GetListOfSteps*
+  commentId: Overload:Library.GameData.GetListOfSteps
+  name: GetListOfSteps
+  nameWithType: GameData.GetListOfSteps
+  fullName: Library.GameData.GetListOfSteps
+- uid: List{Library.Step}
+  commentId: '!:List{Library.Step}'
+  definition: List`1
+  name: List<Step>
+  nameWithType: List<Step>
+  fullName: List<Library.Step>
+  nameWithType.vb: List(Of Step)
+  fullName.vb: List(Of Library.Step)
+  name.vb: List(Of Step)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Library.Step
+    name: Step
+    nameWithType: Step
+    fullName: Library.Step
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Library.Step
+    name: Step
+    nameWithType: Step
+    fullName: Library.Step
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Library.GameData.GetFirstStep*
+  commentId: Overload:Library.GameData.GetFirstStep
+  name: GetFirstStep
+  nameWithType: GameData.GetFirstStep
+  fullName: Library.GameData.GetFirstStep
+- uid: Library.FirstStep
+  commentId: T:Library.FirstStep
+  parent: Library
+  name: FirstStep
+  nameWithType: FirstStep
+  fullName: Library.FirstStep
+- uid: Library.GameData.GetEndStep*
+  commentId: Overload:Library.GameData.GetEndStep
+  name: GetEndStep
+  nameWithType: GameData.GetEndStep
+  fullName: Library.GameData.GetEndStep
+- uid: Library.EndStep
+  commentId: T:Library.EndStep
+  parent: Library
+  name: EndStep
+  nameWithType: EndStep
+  fullName: Library.EndStep
+- uid: Library.GameData.#ctor*
+  commentId: Overload:Library.GameData.#ctor
+  name: GameData
+  nameWithType: GameData.GameData
+  fullName: Library.GameData.GameData
+- uid: Library.Board
+  commentId: T:Library.Board
+  parent: Library
+  name: Board
+  nameWithType: Board
+  fullName: Library.Board

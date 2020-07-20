@@ -1,0 +1,382 @@
+### YamlMime:ManagedReference
+items:
+- uid: Library.Traveler
+  commentId: T:Library.Traveler
+  id: Traveler
+  parent: Library
+  children:
+  - Library.Traveler.#ctor(System.String)
+  - Library.Traveler.AddCoins(System.Int32)
+  - Library.Traveler.AddScore(System.Int32)
+  - Library.Traveler.Coins
+  - Library.Traveler.Name
+  - Library.Traveler.RemoveCoins(System.Int32)
+  - Library.Traveler.RemoveScore(System.Int32)
+  - Library.Traveler.Score
+  langs:
+  - csharp
+  - vb
+  name: Traveler
+  nameWithType: Traveler
+  fullName: Library.Traveler
+  type: Class
+  source:
+    id: Traveler
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Traveler.cs
+    startLine: 15
+  assemblies:
+  - Library
+  namespace: Library
+  syntax:
+    content: 'public class Traveler : object'
+    content.vb: >-
+      Public Class Traveler
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Library.Traveler.#ctor(System.String)
+  commentId: M:Library.Traveler.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Library.Traveler
+  langs:
+  - csharp
+  - vb
+  name: Traveler(String)
+  nameWithType: Traveler.Traveler(String)
+  fullName: Library.Traveler.Traveler(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Traveler.cs
+    startLine: 21
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nConstructor de la clase para ponerle un nombre al traveler.\n"
+  example: []
+  syntax:
+    content: public Traveler(string name = "Traveler")
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(name As String = "Traveler")
+  overload: Library.Traveler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Traveler.Score
+  commentId: P:Library.Traveler.Score
+  id: Score
+  parent: Library.Traveler
+  langs:
+  - csharp
+  - vb
+  name: Score
+  nameWithType: Traveler.Score
+  fullName: Library.Traveler.Score
+  type: Property
+  source:
+    id: Score
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Traveler.cs
+    startLine: 29
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nScore es el puntaje del jugador.\n"
+  example: []
+  syntax:
+    content: public int Score { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public ReadOnly Property Score As Integer
+  overload: Library.Traveler.Score*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Library.Traveler.Coins
+  commentId: P:Library.Traveler.Coins
+  id: Coins
+  parent: Library.Traveler
+  langs:
+  - csharp
+  - vb
+  name: Coins
+  nameWithType: Traveler.Coins
+  fullName: Library.Traveler.Coins
+  type: Property
+  source:
+    id: Coins
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Traveler.cs
+    startLine: 35
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nCoins es la cantidad de monedas del jugador.\n"
+  example: []
+  syntax:
+    content: public int Coins { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public ReadOnly Property Coins As Integer
+  overload: Library.Traveler.Coins*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Library.Traveler.Name
+  commentId: P:Library.Traveler.Name
+  id: Name
+  parent: Library.Traveler
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Traveler.Name
+  fullName: Library.Traveler.Name
+  type: Property
+  source:
+    id: Name
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Traveler.cs
+    startLine: 41
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nName es el nombre del viajero.\n"
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public ReadOnly Property Name As String
+  overload: Library.Traveler.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Library.Traveler.AddScore(System.Int32)
+  commentId: M:Library.Traveler.AddScore(System.Int32)
+  id: AddScore(System.Int32)
+  parent: Library.Traveler
+  langs:
+  - csharp
+  - vb
+  name: AddScore(Int32)
+  nameWithType: Traveler.AddScore(Int32)
+  fullName: Library.Traveler.AddScore(System.Int32)
+  type: Method
+  source:
+    id: AddScore
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Traveler.cs
+    startLine: 46
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo que añade puntuación al jugador y controla el overflow\n"
+  example: []
+  syntax:
+    content: public int AddScore(int score)
+    parameters:
+    - id: score
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function AddScore(score As Integer) As Integer
+  overload: Library.Traveler.AddScore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Traveler.RemoveScore(System.Int32)
+  commentId: M:Library.Traveler.RemoveScore(System.Int32)
+  id: RemoveScore(System.Int32)
+  parent: Library.Traveler
+  langs:
+  - csharp
+  - vb
+  name: RemoveScore(Int32)
+  nameWithType: Traveler.RemoveScore(Int32)
+  fullName: Library.Traveler.RemoveScore(System.Int32)
+  type: Method
+  source:
+    id: RemoveScore
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Traveler.cs
+    startLine: 61
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo que permita remover puntuación al jugador en caso de extensión.\n"
+  example: []
+  syntax:
+    content: public int RemoveScore(int score)
+    parameters:
+    - id: score
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Function RemoveScore(score As Integer) As Integer
+  overload: Library.Traveler.RemoveScore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Traveler.AddCoins(System.Int32)
+  commentId: M:Library.Traveler.AddCoins(System.Int32)
+  id: AddCoins(System.Int32)
+  parent: Library.Traveler
+  langs:
+  - csharp
+  - vb
+  name: AddCoins(Int32)
+  nameWithType: Traveler.AddCoins(Int32)
+  fullName: Library.Traveler.AddCoins(System.Int32)
+  type: Method
+  source:
+    id: AddCoins
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Traveler.cs
+    startLine: 74
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo que añade monedas al jugador y controla el overflow\n"
+  example: []
+  syntax:
+    content: public int AddCoins(int coins)
+    parameters:
+    - id: coins
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function AddCoins(coins As Integer) As Integer
+  overload: Library.Traveler.AddCoins*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Library.Traveler.RemoveCoins(System.Int32)
+  commentId: M:Library.Traveler.RemoveCoins(System.Int32)
+  id: RemoveCoins(System.Int32)
+  parent: Library.Traveler
+  langs:
+  - csharp
+  - vb
+  name: RemoveCoins(Int32)
+  nameWithType: Traveler.RemoveCoins(Int32)
+  fullName: Library.Traveler.RemoveCoins(System.Int32)
+  type: Method
+  source:
+    id: RemoveCoins
+    path: C:\Users\Fran\Desktop\PII_Examen-master\src\Library\Traveler.cs
+    startLine: 89
+  assemblies:
+  - Library
+  namespace: Library
+  summary: "\nMétodo que permita remover monedas al jugador en caso de extensión.\n"
+  example: []
+  syntax:
+    content: public int RemoveCoins(int coins)
+    parameters:
+    - id: coins
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Function RemoveCoins(coins As Integer) As Integer
+  overload: Library.Traveler.RemoveCoins*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Library
+  commentId: N:Library
+  name: Library
+  nameWithType: Library
+  fullName: Library
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Library.Traveler.#ctor*
+  commentId: Overload:Library.Traveler.#ctor
+  name: Traveler
+  nameWithType: Traveler.Traveler
+  fullName: Library.Traveler.Traveler
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Library.Traveler.Score*
+  commentId: Overload:Library.Traveler.Score
+  name: Score
+  nameWithType: Traveler.Score
+  fullName: Library.Traveler.Score
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Library.Traveler.Coins*
+  commentId: Overload:Library.Traveler.Coins
+  name: Coins
+  nameWithType: Traveler.Coins
+  fullName: Library.Traveler.Coins
+- uid: Library.Traveler.Name*
+  commentId: Overload:Library.Traveler.Name
+  name: Name
+  nameWithType: Traveler.Name
+  fullName: Library.Traveler.Name
+- uid: Library.Traveler.AddScore*
+  commentId: Overload:Library.Traveler.AddScore
+  name: AddScore
+  nameWithType: Traveler.AddScore
+  fullName: Library.Traveler.AddScore
+- uid: Library.Traveler.RemoveScore*
+  commentId: Overload:Library.Traveler.RemoveScore
+  name: RemoveScore
+  nameWithType: Traveler.RemoveScore
+  fullName: Library.Traveler.RemoveScore
+- uid: Library.Traveler.AddCoins*
+  commentId: Overload:Library.Traveler.AddCoins
+  name: AddCoins
+  nameWithType: Traveler.AddCoins
+  fullName: Library.Traveler.AddCoins
+- uid: Library.Traveler.RemoveCoins*
+  commentId: Overload:Library.Traveler.RemoveCoins
+  name: RemoveCoins
+  nameWithType: Traveler.RemoveCoins
+  fullName: Library.Traveler.RemoveCoins
