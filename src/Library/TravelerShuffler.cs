@@ -53,29 +53,33 @@ namespace Library
         /// <returns></returns>
         public List<Traveler> ShuffleTravelers(List<Traveler> travelers)
         {
+            List<Traveler> shuffledList = travelers;
             Random random = new Random();
 
             List<Traveler> travelersToSelect = new List<Traveler>(travelers);
-            List<Traveler> shuffledList = travelers;
 
             if (travelers.Count > 1)
             {
-                while (shuffledList.SequenceEqual(travelers))
-                {
-                    shuffledList = new List<Traveler>();
 
-                    while (shuffledList.Count != travelers.Count)
-                    {
-                        
-                        int Index = random.Next(0, travelersToSelect.Count - 1);
-                      
-                        Traveler randomTraveler = travelersToSelect[Index];
-                        shuffledList.Add(randomTraveler);
-                        travelersToSelect.Remove(randomTraveler);
-                    }
+                shuffledList = new List<Traveler>();
+
+
+                while (shuffledList.Count != travelers.Count)
+                {
+
+                    int Index = random.Next(0, travelersToSelect.Count - 1);
+
+                    Traveler randomTraveler = travelersToSelect[Index];
+                    shuffledList.Add(randomTraveler);
+                    travelersToSelect.Remove(randomTraveler);
+                }
+                
+                if (shuffledList.SequenceEqual(travelers))
+                {
+                    shuffledList.Reverse();
                 }
             }
-
+            
             return shuffledList;
         }
 
