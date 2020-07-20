@@ -18,7 +18,14 @@ namespace Library
 {
     public abstract class Step
     {   
-
+        /// <summary>
+        /// Constructor de step para poder poner nombre a los steps.
+        /// </summary>
+        /// <param name="name"></param>
+        public Step (string name = "Step")
+        {
+            this.Name = name;
+        }
         /// <summary>
         /// Diccionario donde se guarda como clave el viajero y como valor la cantidad de veces que entró a la experiencia.
         /// </summary>
@@ -30,6 +37,12 @@ namespace Library
         /// </summary>
         /// <value></value>
         public Step NextStep { get; set; }
+
+        /// <summary>
+        /// Nombre para identificar el Step.
+        /// </summary>
+        /// <value></value>
+        public string Name { get; set; }
 
         /// <summary>
         /// Lista de viajeros en el step.

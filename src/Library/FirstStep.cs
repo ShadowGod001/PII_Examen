@@ -24,7 +24,7 @@ namespace Library
         /// parámetro para indicar a cuál step el jugador se deberá mover después de este.
         /// </summary>
         /// <param name="nextStep"></param>
-        public FirstStep(Step nextStep)
+        public FirstStep(Step nextStep, string name = "FirstStep") : base(name)
         {   
             this.NextStep = nextStep;
             this.PlayersIn = new List<Traveler>();

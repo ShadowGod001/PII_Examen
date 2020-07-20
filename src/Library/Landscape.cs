@@ -22,7 +22,7 @@ namespace Library
         /// <param name="peopleLimit"></param>
         /// <param name="nextStep"></param>
         /// <returns></returns>
-        public Landscape(int peopleLimit, Step nextStep) : base(peopleLimit, nextStep)
+        public Landscape(int peopleLimit, Step nextStep, string name = "Landscape") : base(peopleLimit, nextStep, name)
         {
           
         }

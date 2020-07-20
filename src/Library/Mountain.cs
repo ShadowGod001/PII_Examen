@@ -22,7 +22,7 @@ namespace Library
         /// </summary>
         /// <param name="peopleLimit"></param>
         /// <returns></returns>
-        public Mountain(int peopleLimit, Step nextStep) : base(peopleLimit, nextStep)
+        public Mountain(int peopleLimit, Step nextStep, string name = "Mountain") : base(peopleLimit, nextStep, name)
         {
 
         }

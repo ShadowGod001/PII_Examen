@@ -62,7 +62,7 @@ namespace Library
         /// El constructor de la clase instancia un NextStep null para indicar que este es el último step y una nueva instancia 
         /// de la lista PlayersIn donde se guardan los travelers.
         /// </summary>
-        public EndStep()
+        public EndStep(string name = "EndStep") : base(name)
         {
             this.NextStep = null;
             this.PlayersIn = new List<Traveler>();

@@ -14,7 +14,15 @@ using System.Collections.Generic;
 namespace Library
 {
     public class Traveler
-    {
+    {   
+        /// <summary>
+        /// Constructor de la clase para ponerle un nombre al traveler.
+        /// </summary>
+        /// <param name="name"></param>
+        public Traveler (string name = "Traveler")
+        {
+            this.Name = name;
+        }
         /// <summary>
         /// Score es el puntaje del jugador.
         /// </summary>
@@ -26,6 +34,12 @@ namespace Library
         /// </summary>
         /// <value></value>
         public int Coins { get; private set; }
+
+        /// <summary>
+        /// Name es el nombre del viajero.
+        /// </summary>
+        /// <value></value>
+        public string Name { get; private set; }
 
         /// <summary>
         /// Método que añade puntuación al jugador y controla el overflow

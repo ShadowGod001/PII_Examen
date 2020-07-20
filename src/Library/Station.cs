@@ -48,7 +48,7 @@ public abstract class Station : Step
     /// </summary>
     /// <param name="peopleLimit"></param>
     /// <param name="nextStep"></param>
-    public Station(int peopleLimit, Step nextStep)
+    public Station(int peopleLimit, Step nextStep, string name = "Station") : base(name)
     {
         this.PeopleLimit = peopleLimit;
         this.PlayersIn = new List<Traveler>();

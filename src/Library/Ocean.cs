@@ -22,7 +22,7 @@ namespace Library
         /// </summary>
         /// <param name="peopleLimit"></param>
         /// <returns></returns>
-        public Ocean(int peopleLimit, Step nextStep) : base(peopleLimit, nextStep)
+        public Ocean(int peopleLimit, Step nextStep, string name = "Ocean") : base(peopleLimit, nextStep, name)
         {
 
         }
